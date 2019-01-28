@@ -1,0 +1,27 @@
+.firstHeading{
+    font-size: 100px
+}
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500');
+.articalSecDivBody{  font-family: 'Roboto', arial; font-size: 17px; line-height: 1.4}
+ .articalSecDivBody	p{ font-size: 17px }
+
+.articalSecDivBody	[style*="float:left"],.articalSecDivBody	[style*="float: left"] {
+  margin: 5px 15px 10px 0px;
+}
+
+[.articalSecDivBody	style*="float:right"],.articalSecDivBody	[style*="float: right"] {
+  margin: 5px 0px 10px 15px;
+}
+
+.articalSecDivBody	h1,
+.articalSecDivBody	h2,
+.articalSecDivBody	h3,
+.articalSecDivBody	h4,
+.articalSecDivBody	h5,
+.articalSecDivBody	h6{ font-weight:400}
+
+.articalSecDivBody	h1{ font-size: 25px }
+.articalSecDivBody	h2{ font-size: 22px }
+.articalSecDivBody	h3{ font-size: 20px }
+.articalSecDivBody	h4{ font-size: 18px }

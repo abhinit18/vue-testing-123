@@ -1,0 +1,1121 @@
+@import "bootstrap/variables";
+// sitevariables
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,700');
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+//Colors
+$colorWhite: #fff;
+$colorBlack:#000;
+
+ 
+/*.marketingPage{font-family: 'Montserrat', sans-serif; transition: all 0s;
+  *{transition: all 0s;}
+  .mrktSlider{ min-height: 100vh; background: #464e5b }
+ 
+  .mrkConMid{ max-width: 1040px; margin: 0 auto }
+
+
+  .mrkHeader{ position: fixed;; top: 0; padding: 20px 0; width: 100%; left: 0;
+  	.logo{ float: left; }
+  	nav{ float: right;
+
+  		a{color: $colorWhite}
+  	}
+  }
+}*/
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700');
+body.staticBody,
+body.marketingBody{ min-width: 100px;}
+
+.marketingPage{ overflow:hidden;
+  #marketingPageScrolling {
+    .swiper-button-prev,
+    .swiper-button-next{ transform: scale(0); opacity: 0 }
+  }
+  .langSelect .seleLangcbtn{ color: $colorWhite; font-size: 12px; font-weight: $fbold}
+  .langSelect:hover .seleLangcbtn{color:$colorSecondary;}
+  .langSelect .dropdownSel ul{ background: none; border: 0 ;  padding: 15px 0 0;  margin: -15px 0 0; z-index: 99; text-align: right; right: 0; left: auto;
+    li{ color: $colorWhite; background: none; padding: 5px 10px; margin: 0; display: block!important; text-align: right;
+      &:hover{ color:$colorSecondary; }
+    }
+
+  }
+  .langSelect .select__arrow{ width: 0px; height: 0px; border-left: 5px solid transparent; border-right: 5px solid transparent; border-top: 5px solid $colorWhite; background: none; right: 5px }
+  .customPaging{    transition: all .3s;}
+  &.videoOpenBody{
+    .customPaging{ right: -100px; }
+  }
+  *{transition: all 0s;}
+   .mrkConMid{ max-width: 1040px; margin: 0 auto;position:relative;z-index:10;padding: 0 10px;}
+  .mrktSlider{padding:0 15px 0;min-height: 100vh;background:rgba(16,22,44,1);position:relative;
+    &:after{content:"";position:absolute;/*z-index:99; */left:0;top:0;width:100%;height:100%;background:url('~assets/images/marketing/markGridBg.png') repeat 0 0;}
+    &.addColorSlide{background: linear-gradient(120deg, #3f51b5, #31358d);}
+    .marktSliderInner{padding:215px 0 0;position:relative;
+      .leftInfo{max-width:360px;font-size:18px;color:$colorWhite; font-weight: $flight; letter-spacing: 0.5px; position: relative; z-index: 1;
+        .heading{font-weight:$fbold;font-size:36px;line-height:40px;margin:0 0 30px;font-family: 'Montserrat', sans-serif }
+        p{margin:0;}
+      }
+      .marktStudntIcon{position:absolute;left:50%;transform:translateX(-50%);top:0;
+      
+      }
+      
+      .marktRightIcon{position:absolute;right:100px;top:150px;
+        .topRgtIcon{margin:0 0 48px;}
+        .bottomRgtIcon{margin:0}
+      }
+
+    }
+  }
+   .mrkHeader{ position: fixed; top: 0; padding: 20px 0; width: 100%; left: 0;font-family:'Roboto', sans-serif;z-index:999;
+    .marktLogo{ float: left; display:inline-block; margin: 30px 0 0; cursor: pointer;
+      
+    }
+    nav{ float: right;padding:0;
+      li{ display: inline-block; margin: 0 0 0 28px;padding:0; font-weight: $fbold; 
+       a{padding:0;display:inline-block;position:relative;color: $colorWhite;text-transform:uppercase;font-size:12px;text-decoration: none;
+        &:hover{color:$colorSecondary;}
+        /*&:after{content:"";transform:scale(0);transition:all 0.5s ease;position:absolute;width:90%;background:$colorPrimary;left:5%;bottom:0;height:2px;}
+        &:hover:after{transform:scale(1);}*/
+        &.subscribeBtn{background:$colorSecondary;border-radius:2px;padding:10px 12px;color:$colorButton;
+        &.subscribeBtn:hover{background:$colorSecondaryHover;}
+        /* &:after{display:none;}*/
+        }
+         
+       }
+       
+      &.langShowWeb{position:relative;}
+      &.langShowWeb:hover .slctLangShow{ display:block;} 
+    }
+  }
+  .langShowMob{position:relative;display:none;float:right;}
+  .langShowMob:hover .slctLangShow{ display:block;}
+
+  .selectLang{width: 100%;position: relative;margin-bottom: 0;cursor:pointer;
+
+           &:after{content:"";transform:scale(0);transition:all 0.5s ease;position:absolute;width:60%;background:$colorPrimary;left:0;bottom:0;height:2px;}
+           &:hover:after{transform:scale(1);}
+          .langSelected{width:100%;position:relative;
+          } 
+          .seletedLangTxt{color: $colorWhite;display:inline-block;font-weight:$fmedium;text-transform:uppercase;font-size:12px; }
+          .selectArrow{display:inline-block;font-size:18px;vertical-align:middle;color: $colorWhite;}
+          .slctLangShow{background:$colorWhite;padding:0;width:70px;position:absolute;left:-20px;top:100%;display:none;
+                 .slectLangList{list-style:none;padding:0;margin:0;
+                   li{display:block;width:100%; float:left;padding:3px;border-bottom:1px solid #c1c1c1;margin:0;color:#444;
+                     &:after{display:none;}
+                   }
+                 }
+
+
+           }
+           
+          }
+      
+    }
+.subsBtnMob{background:$colorSecondary;margin:30px 0 0;border-radius:2px;color:$colorExtraDark;font-weight:$fmedium;text-transform:uppercase;font-size:16px;text-align:center;padding: 10px 12px;max-width:200px;min-width:150px;display:none;
+  &:hover{background:$colorSecondaryHover;}
+}
+  
+  .btnVideo{font-size: 18px;font-family:'Roboto'; color:$colorWhite;background:transparent;outline:0;padding:0;
+    &:hover{color:$colorSecondary;}
+    .material-icons{color:$colorSecondary;vertical-align:top;}
+  }
+.marktFoldOuter{ position:relative;
+
+    .marktFoldSec{ background: linear-gradient(260deg,#6fe2ac,#28bcaa);padding: 130px 15px 0;
+      &.foldBg_Blue{background:#3f51b5;}
+      &.foldBg_2{background: linear-gradient(118deg,#39c1c7,#2b8fca);}
+      .marktFoldBox{width:100%;border-radius:12px 12px 0 0;  position:relative;box-shadow: 0 0 27px rgba(0,0,0,0.5); /* padding:120px 95px 0 150px;*/ height: calc(100vh-130px);min-height:540px;
+      
+      &.foldBox_1{background:#0dd28e;}
+      &.foldBox_2{background:#daa91f;}
+      &.foldBox_3{background:#ff6960;}
+      &.foldBox_4{background:#ffcc4b;}
+      &.foldBox_testimonial{background:#0dd28e;/*background:url("~assets/images/marketing/testimonial_bg_1.jpg") no-repeat 0 0 / cover;padding:45px 0 0 0;*/}
+      &.foldBox_teachers{background:#44c5c4;padding:45px 50px 0 80px;}
+      &.foldBox_contPartner{background:$colorWhite; padding:45px 70px;}
+      &.foldBox_Subscribe{background:#2b335d;padding:45px 50px 0 80px;text-align:center;}
+      &.foldBox_ContactUs{background:#262728;padding:10;color:#929393;font-size:14px;
+        .masKotImg{position:absolute;right:100px;bottom:40px;width:170px;
+         img{width:100%}
+        }
+      }
+      .marktFoldBoxInner{position:absolute;left:0;top:50%;transform:translateY(-50%);width:100%;}
+      &.foldBox_testimonial .marktFoldBoxInner{padding:0 50px;position:relative;transform:translateY(0);height:100%;top:0;}
+      &.foldBox_2 .marktFoldBoxInner{padding:0 95px 0 150px;}
+      &.foldBox_1 .marktFoldBoxInner{padding:0 95px 0 150px;}
+      &.foldBox_3 .marktFoldBoxInner{padding:0 95px 0 150px;}
+      &.foldBox_4 .marktFoldBoxInner{padding:0 95px 0 150px;}
+      &.foldBox_ContactUs .marktFoldBoxInner{padding:0 37% 0 50px;}
+
+      .foldBoxSubsContent{display:inline-block;padding:0 10px;font-size:16px;width:100%;text-align:center;color:$colorWhite;position:absolute;left:0;top:50%;transform:translateY(-50%);}
+      .foldSubscTxt{margin:0 0 45px;}
+     .foldBoxContentSec{}
+
+        
+        
+
+      
+      .foldFeatureTabContent{
+         .tabInfo{font-size:18px;color:$colorWhite;width:240px; min-height: 370px}
+         .tabImg{position:absolute;right:10px;top:0;text-align:center;
+            img{max-width:100%;}
+          }
+          &.content_3 .tabInfo{width:300px;}
+          &.content_3 .tabImg{top:-50px;right:-52px;}
+          &.content_4 .tabImg{/*top:0;right:185px;
+            img{max-width:205px;}*/
+          }
+
+       }
+       .hedingTabfold{font-size:34px;font-weight:$fbold;margin:0 0 17px;color:$colorWhite;font-family: 'Montserrat', sans-serif !important; word-wrap: break-word;}
+       .tabInfoTxt{margin:0 0 10px;color:$colorWhite; font-weight: $flight; letter-spacing: 0.5px;}
+       &.foldBox_testimonial .hedingTabfold{margin:0 0 45px;text-align:center;}
+       &.foldBox_teachers .hedingTabfold{text-align:center; margin:0 0 45px;}
+       &.foldBox_Subscribe .hedingTabfold{font-size:45px;margin:0 0 22px;}
+       &.foldBox_contPartner .hedingTabfold{font-size:36px;color: $colorPrimary;text-align:center;margin:0 0 40px;}
+
+       .foldSlider{position:relative;
+          &.foldTeacherSlider{width:650px;margin:0 auto;}
+
+          .foldTestmBox{border-radius:13px;width:265px; height: auto; min-height:100%;background:$colorWhite;padding:20px 30px 65px;margin:0 auto 50px;position:relative;color:#838383;font-size:14px;}
+          .TestmName{font-size:21px;font-weight:$fmedium;margin:0 0 3px;color:#6f6f6f;}
+          .TestmReltn{font-size:16px;margin:0 0 15px;color:#6f6f6f;}
+          .testmTxt{margin:0 0 10px;}
+          .testmImg{width:85px;height:85px;position:absolute;right:40px;bottom:-40px;border-radius:100%;}
+          .VueCarousel-dot--active .VueCarousel-dot-inner{background:$colorWhite !important;}
+          .VueCarousel-dot-inner{width:13px !important;height:13px !important;border-radius:100% !important;background:transparent !important;border:2px solid $colorWhite !important;}
+          &.foldTeacherSlider  .foldTestmBox{width:285px; height:330px; margin:0 auto;padding:45px 25px;color:#494141;}
+          &.foldTeacherSlider .boxHeding{font-size:20px;font-weight:$flight; margin: 0 0 20px;}
+         }
+     }
+     /*box ends*/
+
+  .colorOuterFoldSec{ padding-bottom: 60px !important}
+
+      .foldThemeBtn{position:absolute;bottom:60px;left:50%;width:180px;margin-left:-76px;
+         .foldThemeBtnList{list-style:none;margin:0;padding:0;
+            li{width:35px;height:35px;margin:0 3px 0 0;float:left;text-align:center;position:relative;
+               &:after{content:"";width:35px;height:35px;z-index:1;position:absolute;left:0;top:0;border-radius:100%;background:transparent;border:2px solid #fff;transform:scale(0);transition:all 0.3s ease;}
+               &.active:after{transform: scale(1);}
+               &.theme_1 .bullet{background:#39c1c7}
+               &.theme_2 .bullet{background:#ff6960}
+               &.theme_3 .bullet{background:#c75fa4}
+               &.theme_4 .bullet{background:#90d165}
+               .bullet{position:absolute;left:50%;top:50%;z-index:5;margin-left:-9px;margin-top:-9px;width:18px;height:18px;border-radius:100%;
+               
+                              
+              }
+            }
+          }
+       }
+     }
+
+
+     .foldActionBtnSec{position:absolute;top:50%;left:80px;margin-top:-108px;z-index:999;
+
+         .swiper-pagination-bullet{display:none;text-align:center;position:relative;width:50px;height:65px;background:transparent;opacity:1;
+            &:nth-child(3){display:block;}
+            &:nth-child(4){display:block;}
+            &:nth-child(5){display:block;}
+            &:nth-child(6){display:block;}
+            &:before{content:"";position:absolute;left:0;top:-20px;z-index:99999;width:50px;height:50px;transform:translateX(-50%) scale(0.4);display:inline-block;background:#fff url('~assets/images/marketing/arrowPlay.png') no-repeat 15px 10px / 0;border:1px solid $colorWhite;color:#717171;border-radius:100%;transition:all 0.3s ease;}
+            &.swiper-pagination-bullet-active:before{transform:translateX(-50%) scale(1);/*font-family: 'Material Icons';content: "play_arrow";font-size:40px;line-height:50px;*/background-size:26px;}
+            &:after{content:"";position:absolute;left:0;top:0;height:65px;background:$colorWhite;width:1px;}
+            &:nth-child(6):after{content:none;}
+         }
+
+  
+      }
+      .subsBtnSec{ display:block;margin:0 0 60px 0; text-align: center;}
+      .subsBtn{min-width:240px;display:inline-block;vertical-align:top;margin:0 10px 0 0; height:70px;font-size:24px;background:$colorSecondary;text-align:center;color:$colorButton;box-shadow:0 4px 0 $colorSecondary;border-radius:4px;
+        &:hover{background:$colorSecondaryHover;box-shadow:0 4px 0 $colorSecondaryHover;}
+       &:last-child{margin:0 0 0 10px;}
+      }
+      .appLinkSec{display:block;}
+      .appBtn{display:inline-block;margin:0 20px 0 0;
+        &:last-child{margin:0;}
+      }
+      .mrktCleintSec{/*width:100%;padding:18px 0 0;height:150px;text-align:center;*/display:-webkit-box;display: -ms-flexbox;display:flex;justify-content:space-between;padding:0 70px;align-items:center;
+        .clientImg{/*display: inline-block;vertical-align:top;margin:0 6% 30px 0;*//*flex:0 1 auto;*/max-width:100%;
+         /*&:last-child{margin:0 0 30px 0;}*/
+        }
+      }
+      .foldBoxContactInner{border-bottom:1px solid #929393;padding:0 0 35px;margin:0 0 30px;
+         a{color:#929393;text-decoration:none;}
+         .colsBoxFollowUs{width:170px;float:right;}
+         .colsBoxContact{margin-right:190px;}
+         .contcTxtBox{display:inline-block;margin:0 20px 0 0;vertical-align:top;line-height:24px;
+          &:last-child{margin:0;}
+          }
+         .colsHeading{font-size:18px;text-transform:uppercase;font-weight:$fbold;color:$colorWhite;margin:0 0 30px;}
+      }
+   }
+
+   .socialIcons{display:inline-block;margin:0 40px 0 0;
+    &:last-child{margin:0;}
+   }
+   .slideHandle{width:68px;height:68px;background:url('~assets/images/marketing/drag.png') no-repeat 0 0;position:absolute;bottom:50px;right:-32px;z-index:99;cursor:pointer;}
+
+   .videoBg{padding:0 0 0;background:rgba(46,50,60,1);position:relative;height:100vh; overflow: hidden;
+    .peekMaskot{transition: all 1s;}
+       &.videoOpen:after{opacity: 0}
+       &.videoOpen .videoCaption{ opacity: 0 }
+       &.videoOpen .videoBtn{display:block;}
+       &.videoOpen .peekMaskot{ opacity: 0; left: -500px}
+
+       .videoBtn{display:none;position:fixed;z-index:999;right:50px;top:50px;width:40px;height:40px;border:0;outline:0;border-radius:5px;background:rgba(0,0,0,0.8);color:$colorWhite;padding:3px;font-size:28px;}
+       &:after{content:"";position:absolute;/*z-index:99; */left:0;top:0;width:100%;height:100%;background:rgba(63,81,181,0.9) url('~assets/images/marketing/markGridBg.png') repeat 0 0; transition: all 1s; opacity: 1 }
+     .videoCaption{position:absolute;left:50%;top:50%;transform:translate(-50%, -50%);z-index: 99;width:100%;}
+        .marktVideo{ position: absolute;
+        bottom: 0; left:0; min-width: 100%;
+        min-height: 100%; width: auto;
+        height: auto; 
+       }
+       .mrktCleintSec{ text-align: left; margin:0; background: $colorWhite; border-radius: 10px; padding:10px 20px; display:flex; align-items:center; justify-content:space-between;
+          img{ margin: 0 10px 0 0}
+       }
+      .mrktCleintSecHeading{ margin: 50px 0 8px;
+        color:$colorWhite;
+        font-size: 16px;
+        letter-spacing: 0.5px; font-weight: $fmedium}
+
+    .mrktFoldWelcome{
+           .mrkFoldInner{max-width:850px;margin:0 auto 0;padding:0 0 0;color:$colorWhite;}
+           .foldBuddyTxt{margin: 0 0 10px;font-size:26px;font-weight: $flight;font-family:'Montserrat', sans-serif;display:none;}
+           .foldPunchLine{font-size: 55px;font-weight:$fbold;margin:0 0 20px;position:relative;height:60px;font-family:'Montserrat', sans-serif;}
+    }
+  }
+
+  
+
+
+  .marktMobMenu{margin:-2px 20px 0 0;color:$colorWhite;display:none;width:25px;height:20px;float:left;cursor:pointer;transition:all 0.5s ease;
+      
+      &.active .burger_bar{transform:rotate(-45deg);}
+      &.active .burger_bar:before{transform:rotate(90deg);top:0;}
+      &.active .burger_bar:after{transform:scale(0);}
+
+     .burger_bar{height:2px;width:100%;background:$colorWhite;position:relative;display:inline-block;
+        &:before{position:absolute;left:0;top:-8px;content:"";width:100%;height:2px;background:$colorWhite;}
+        &:after{position:absolute;left:0;bottom:-8px;content:"";width:100%;height:2px;background:$colorWhite;transform:scale(1);}
+      }
+  }
+  .headerLeft{margin:0;padding:0}
+
+  .peekMaskot{transform:rotate(20deg); width:200px;position:absolute;left:-40px;bottom:0px;z-index:9999;
+    img{width:100%;}
+
+  }
+  .testimonial_quote{width:400px;position:absolute;top:50%;left:50px;transform:translateY(-50%);
+  &.testimonial_quoteRight{right:50px;left:auto;}
+  .testimonial_quote_txt{font-size:30px;color:$colorBlack;font-weight:$flight;padding:20px 40px;}
+  .quote_icon{color:#d9dc38;font-size:50px;position:absolute;left:0;top:-10px;transform:rotate(180deg);
+   &.quoteRignt{right:0;bottom:-10px;left:auto;top:auto;transform:rotate(0);}
+   }
+  
+  }
+  .testimonialImg{width:550px;position:absolute;right:20px;bottom:0;
+  	&.testimonialImgRight{left:20px;right:auto;}
+   img{width:100%;}
+  }
+
+           .fadeInPunch {display: inline;text-indent: 2px;margin: 0 0 0 1px}
+           .fadeInPunch span {
+             animation: fadeInEffect 12.5s linear infinite 0s;
+            -ms-animation: fadeInEffect 12.5s linear infinite 0s;
+            -webkit-animation: fadeInEffect 12.5s linear infinite 0s;
+            opacity: 0;
+            overflow: hidden;
+            position: absolute;
+            color:#ffd956;
+          }
+          .fadeInPunch span:nth-child(2) {
+            animation-delay: 4s;
+            -ms-animation-delay: 4s;
+            -webkit-animation-delay: 4s;
+            color:#ffa15d;
+          }
+          .fadeInPunch span:nth-child(3) {
+             animation-delay: 8s;
+            -ms-animation-delay: 8s;
+            -webkit-animation-delay: 8s;
+            color:#32d490;
+          }
+          @keyframes fadeInEffect{
+            0% { opacity: 0; }
+            5% { opacity: 0; transform: translateX(0px); }
+            10% { opacity: 1; transform: translateX(0px); }
+            25% { opacity: 1; transform: translateX(0px); }
+            30% { opacity: 0; transform: translateX(0px); }
+            80% { opacity: 0; }
+            100% { opacity: 0; }
+          }
+
+
+
+
+
+}
+
+
+
+#video-compare-container {
+  display: block;
+   position: relative;
+  width: 100%;
+  padding-top: 0; overflow: hidden;
+}
+#video-compare-container .mrktSlider{ width: 100vw;max-width: 100vw; min-width: 100vw;}
+
+#video-compare-container,
+#video-compare-container *{ transition: all 0s }
+
+#video-compare-container > video {
+  width: 100%;
+   top: 0; height: 100vh; 
+}
+#video-clipper {
+  width: calc(50% + 30px); position: absolute;
+  top: 0; bottom: 0;
+  overflow: hidden;
+  left: 0;height: 100vh; z-index: 99;/* background: green;*/padding:0;
+}
+.page-container {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+ 
+.fullpage-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.fullpage-wp {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+.fullpage-wp.anim {
+    transform: translate3d(0, 0, 0);
+    -webkit-transition: all 500ms ease-out 0s;
+    transition: all 500ms ease-out 0s;
+}
+.fullpage-wp.fullpage-wp-h {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+.page {
+    box-sizing: border-box;
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    flex-shrink: 0;
+    overflow: hidden;
+}
+
+.page-1{ background: red }
+.page-2{ background: green }
+.page-3{ background: yellow }
+.animated {
+    opacity: 1;
+}
+ 
+ 
+  .my-swiper {   height: 300px;  width: 100%;}
+  
+   .my-swiper .swiper-slide {
+      text-align: center;
+      font-size: 38px;
+      font-weight: 700;
+      background-color: #eee;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+   .my-swiper .swiper-pagination  > .swiper-pagination-bullet {  background-color: red; }
+  
+
+
+
+
+.marktFoldOuter .foldActionBtnSec{ position: absolute; width: auto; margin: 0; top:40%; left: 0 }
+
+
+.marketingPage .marktFoldOuter .marktFoldSec.b1{ background: #1D95C4 }
+.marketingPage .marktFoldOuter .marktFoldSec.b2{background: #E75754}
+.marketingPage .marktFoldOuter .marktFoldSec.b3{background: #A34C82}
+.marketingPage .marktFoldOuter .marktFoldSec.b4{background: #20CE76}
+
+
+.customPaging{ position: fixed; right: 15px; top: 50%; transform:translateY(-50%); z-index: 99; left: auto!important; bottom: auto!important; width: 30px!important;}
+.customPaging   .swiper-pagination-bullet{ display: block; width: 10px; height: 10px; margin: 10px 0 0!important;background:rgba(255,255,255,0.6); }
+.customPaging   .swiper-pagination-bullet-active{ background: #fff }
+.marketingPage .marktFoldOuter .subsBtn a{ color: $colorButton; text-decoration: none; }
+.mrkHeader .langSelect{/* background: #fff; border-radius: 15px!important */ }
+/*.mrkHeader .select:after{    content: "";
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    transition: all .5s ease;
+    position: absolute;
+    width: 35px;
+    background: #39c1c7;
+    left: 5px;
+    bottom: 0;
+    height: 2px;}*/
+.mrkHeader .select:hover:after{transform:scale(1);}
+
+
+.mrkHeader select{color:#fff;font-size:12px;text-transform: uppercase;border:0;-webkit-appearance:menulist !important;appearance:menulist !important;-moz-appearance:menulist !important;}
+.mrkHeader .select select:focus, .mrkHeader .select select:hover{background:transparent;color:#fff;}
+.mrkHeader select option{color:#000;}
+.mrkHeader select{ border: 0; padding:3px 0 3px 10px;border-radius: 20px!important  }
+.marketingBody .swiper-container{ height: 100vh }
+
+.animated {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+
+}
+
+.animated.infinite {
+  animation-iteration-count: infinite;
+}
+
+
+.animation_1{animation-delay:0;}
+.animation_2{animation-delay:3s;}
+.animation_3{animation-delay:6s}
+
+.marketingPage .peerDynImgTxtTop{position:absolute;top:70px;left:17px;color:$colorDarkLight;font-size:14px;text-align:left;
+       .peerTxtTime{font-size:12px;margin:0 0 7px;max-width:250px;overflow:hidden;}
+       .peerDynImgTxtComment{color:$colorExtraDark;margin:0 0 25px;max-width:250px; text-overflow:ellipsis;overflow:hidden;white-space:nowrap;}
+       .peerDynResrceTxt{font-size:14px;padding:0 0 0 60px;max-width:250px;overflow:hidden;}
+
+}
+.marketingPage .peerProfileNametop{font-size:14px;color:$colorWhite;position:absolute;top:5px;left:50px;max-width:150px;overflow:hidden;text-overflow:ellipsis;white-space: nowrap;}
+.marketingPage .peerProfileNameBot{font-size:14px;color:$colorWhite;position:absolute;bottom:172px;left:50px;overflow:hidden;text-overflow:ellipsis;white-space: nowrap;}
+/*.BodyKk .marketingPage .peerDynImgTxtTop .peerDynImgTxtComment{font-size:12px;line-height:14px;margin:0 0 20px;overflow:hidden;white-space:nowrap;max-height:29px;text-overflow:ellipsis;}*/
+.marketingPage .peerDynImgTxtBottom{position:absolute;bottom:85px;left:17px;color:$colorDarkLight;font-size:14px;text-align:left;
+   .peerTxtTime{font-size:12px;margin:0 0 7px;max-width:250px;overflow:hidden;}
+   .peerDynImgTxtComment{color:$colorExtraDark;margin:0 0 0;max-width:250px;overflow:hidden;}
+   .chatIcon{color:$colorSecondary;font-size:16px;color:#f2a800;font-weight:700;max-width:250px;overflow:hidden;margin-left:5px;}
+}
+
+.partnersPage{ padding: 20px 0 50px }
+.HelpPage .helpItemsOuter .swiper-slide{ opacity: 0;}
+
+.HelpPage .helpItemsOuter .swiper-slide.swiper-slide-active, 
+.HelpPage .helpItemsOuter .swiper-slide.swiper-slide-next, 
+.HelpPage .helpItemsOuter .swiper-slide.swiper-slide-next+div {
+  opacity: 1;
+}
+
+
+@media (max-width:1150px){
+  .marketingPage .marktFoldOuter .marktFoldSec .marktFoldBox .foldFeatureTabContent.content_3 .tabImg{width:500px;right:30px;}
+  .marketingPage .marktFoldOuter .marktFoldSec .marktFoldBox.foldBox_testimonial{padding:45px 20px 0}
+  .marketingPage .marktFoldOuter .marktFoldSec .marktFoldBox.foldBox_teachers{padding:45px 20px 0}
+.marketingPage #comparison .mrkConMid{ margin: 0 50px }
+.marketingPage .peerDynImgTxtTop{top:52px;margin:0 0 4px;font-size:12px;}
+.marketingPage .peerDynImgTxtTop .peerDynResrceTxt{padding:0 0 0 45px;font-size:12px;}
+.marketingPage .peerDynImgTxtTop .peerDynImgTxtComment{margin:0 0 20px;font-size:12px;}
+.marketingPage .peerDynImgTxtBottom{bottom:60px;}
+.marketingPage .peerDynImgTxtBottom .peerDynImgTxtComment{font-size:12px;}
+.marketingPage .peerProfileNametop{left:43px;font-size:12px;}
+.marketingPage .peerProfileNameBot{bottom:136px;left:43px;font-size:12px;}
+
+  .marketingPage .marktFoldOuter .mrktCleintSec{ flex-wrap: wrap; align-items: center; }
+
+.marketingPage .marktFoldOuter .marktFoldSec .marktFoldBox .foldFeatureTabContent .tabImg{ max-width: 50% }
+}
+
+@media (max-width:992px){
+  .marketingPage .marktFoldOuter .marktFoldSec .marktFoldBox{padding:30px;}
+  .marketingPage .marktFoldOuter .marktFoldSec .marktFoldBox .foldFeatureTabContent .tabInfo{width:100% !important}
+
+  .marketingPage .marktFoldOuter .marktFoldSec .marktFoldBox .foldFeatureTabContent .tabImg{position:static;width:400px;margin:20px auto 0;}
+
+  .marketingPage .marktFoldOuter .marktFoldSec .marktFoldBox.foldBox_ContactUs{padding:30px 15px;}
+  /*.marketingPage .marktFoldOuter .marktFoldSec .marktFoldBox.foldBox_ContactUs .masKotImg{position:static;width:100%;text-align:center;}*/
+  .marketingPage .marktFoldOuter .marktFoldSec .marktFoldBox.foldBox_ContactUs .marktFoldBoxInner{padding:0 25% 0 40px}
+  .marketingPage .marktFoldOuter .marktFoldSec .marktFoldBox.foldBox_ContactUs .masKotImg img{max-width:150px;}
+  .marketingPage .marktFoldOuter .marktFoldSec .marktFoldBox .foldSlider{max-width:600px;margin:0 auto;}
+  .marketingPage .marktFoldOuter .marktFoldSec .marktFoldBox.foldBox_ContactUs .masKotImg{right:15px;}
+  .marketingPage .marktFoldOuter .foldBoxContactInner .contcTxtBox{margin: 0px 15px 0px 0px;}
+  /*.marketingPage .marktFoldOuter .marktFoldSec .marktFoldBox.foldBox_ContactUs .marktFoldBoxInner{padding:0 40px}*/
+   .marketingPage .testimonialImg{ max-width: 350px;
+      img{max-width: 100%}
+    }
+    .marketingPage .peekMaskot{ width: 100px; left: -30px }
+    .marketingPage .marktFoldOuter .marktFoldSec .marktFoldBox .foldFeatureTabContent.content_3 .tabImg{position:relative;top:0;right:0;}
+    /*.marketingPage .mrkHeader .marktLogo{margin:0;}*/
+    .marktMobMenu{display:inline-block !important;}
+    .marketingPage .mrkHeader nav{width:100%;background:$colorWhite;padding: 20px;transform: scale(0);position:absolute;left:0;top:50px; transition: all 0.5s; opacity: 0;
+    &.active{ transform: scale(1); opacity: 1 }
+  }
+  .marketingPage .mrkHeader nav li{width:100%;margin:15px 0;}
+  .marketingPage .mrkHeader nav li a{color:#727376;font-size:14px; display: block;}
+  .marketingPage .mrkHeader nav li a.subscribeBtn{ display: inline-block; }
+  .marketingPage .mrkHeader .langShowMob{display:inline-block;}
+  .marketingPage .mrkHeader .marktLogo{float:none !important;margin:0;}
+  .marketingPage .mrkHeader nav li.langShowWeb {display:none;}
+}
+
+.marketingPage .marktFoldOuter .marktFoldSec .marktFoldBox .personalised_theme .hedingTabfold{ padding: 170px 0 0}
+.BodyKk .marketingPage .videoBg .mrktFoldWelcome .foldPunchLine{ font-size:40px}
+@media (max-width:767px){
+  /*.marketingPage .marktFoldOuter .marktFoldSec .marktFoldBox{padding:30px 15px;}*/
+  .marketingPage .marktFoldOuter .marktFoldSec .marktFoldBox .hedingTabfold{font-size:22px;}
+  .marketingPage .marktFoldOuter .marktFoldSec .marktFoldBox .foldFeatureTabContent .tabImg{width:500px !important;}
+  .marketingPage .videoBg .mrktFoldWelcome .foldTxtAnim{position:static;display:block;}
+  .marketingPage .videoBg .mrktFoldWelcome .mrkFoldInner{width:100%;padding:0 20px 0;}
+  .marketingPage .videoBg .mrktFoldWelcome .foldPunchLine{font-size:36px;height:75px}
+  .marketingPage .mrkHeader{padding: 20px 0 !important;}
+  
+
+  .marketingPage .marktFoldOuter .marktFoldSec .marktFoldBox.foldBox_Subscribe{padding:50px 15px}
+  .marketingPage .marktFoldOuter .marktFoldSec .marktFoldBox.foldBox_Subscribe .hedingTabfold{font-size:35px;}
+  .marketingPage .marktFoldOuter .appBtn{margin: 0 10px 0 0;}
+  .marketingPage .marktFoldOuter  .marktFoldSec .marktFoldBox .foldFeatureTabContent.content_4 .tabImg img{max-width:140px}
+  .marketingPage .marktFoldOuter .marktFoldSec .marktFoldBox.foldBox_contPartner{padding:30px 15px;}
+  .marketingPage .marktFoldOuter .mrktCleintSec .clientImg{max-width:40%}
+  .marketingPage .marktFoldOuter .marktFoldSec .marktFoldBox.foldBox_contPartner .hedingTabfold{font-size:24px; margin: 0 0 50px;}
+  .marketingPage .marktFoldOuter .marktFoldSec .marktFoldBox .foldSlider{max-width:100%;margin:0 auto;}
+  .marketingPage .marktFoldOuter .marktFoldSec .marktFoldBox.foldBox_testimonial{padding:45px 15px 0}
+  .marketingPage .marktFoldOuter .marktFoldSec .marktFoldBox .foldSlider .foldTestmBox{width:250px;padding:20px}
+  .marketingPage .marktFoldOuter .marktFoldSec .marktFoldBox .foldSlider.foldTeacherSlider .foldTestmBox{width:250px; padding:20px}
+  .marketingPage .marktFoldOuter .marktFoldSec .marktFoldBox.foldBox_teachers{padding:45px 15px 0}
+  /*.marketingPage .marktFoldOuter .subsBtn{margin:0 15px 30px 0;}*/
+  .marketingPage .mrkConMid{max-width:100%;}
+  .marketingPage .videoBg .mrktFoldWelcome .foldBuddyTxt{font-size:16px;}
+  
+
+  
+
+  
+
+  .marketingPage .mrkHeader .marktLogo{width:75px;}
+  .marketingPage .mrkHeader .marktLogo img{max-width:135px;}
+  
+  .marketingPage .subsBtnMob{display:block;}
+  .marketingPage .peekMaskot{display:none;}
+  .customPaging{display:none;}
+  .foldActionBtnSec{display:none;}
+  .marketingPage .fadeInPunch{display:block;width:100%;text-indent: 0;margin: 0;}
+  .marketingPage .marktFoldOuter .marktFoldSec{padding:80px 0 0;}
+  .marketingPage .marktFoldOuter .marktFoldSec .marktFoldBox{padding:20px 15px; height: calc(100vh - 80px);min-height:100%;}
+  .marketingPage .marktFoldOuter .marktFoldSec .marktFoldBox .foldFeatureTabContent .tabInfo{font-size:16px;}
+  .marketingPage .marktFoldOuter .marktFoldSec .marktFoldBox.foldBox_testimonial .marktFoldBoxInner{padding:0;}
+  .marketingPage .marktFoldOuter .marktFoldSec .marktFoldBox.foldBox_ContactUs .marktFoldBoxInner{padding:0 15px}
+  .marketingPage .marktFoldOuter .marktFoldSec .marktFoldBox.foldBox_1 .marktFoldBoxInner, .marketingPage .marktFoldOuter .marktFoldSec .marktFoldBox.foldBox_2 .marktFoldBoxInner, .marketingPage .marktFoldOuter .marktFoldSec .marktFoldBox.foldBox_3 .marktFoldBoxInner, .marketingPage .marktFoldOuter .marktFoldSec .marktFoldBox.foldBox_4 .marktFoldBoxInner, .marketingPage .marktFoldOuter .marktFoldSec .marktFoldBox .marktFoldBoxInner{position:static;transform:translate(0);padding:0;}
+  .marketingPage .marktFoldOuter .foldBoxContactInner .colsHeading{font-size: 16px; margin: 0 0 15px;}
+  .marketingPage .marktFoldOuter .marktFoldSec .marktFoldBox.foldBox_ContactUs .masKotImg{bottom:10px;right:50%;transform:translateX(50%);}
+ 
+  .marketingPage .marktFoldOuter .foldBoxContactInner .contcTxtBox{display:block;}
+  .marketingPage .marktFoldOuter .foldBoxContactInner{padding: 0 0 15px;margin: 0 0 15px;}
+  .marketingPage .marktFoldOuter .foldBoxContactInner .colsBoxFollowUs{    width: auto;
+    float: none;
+    display: inline-block;
+    margin: 0 0 20px;}
+    .marketingPage .marktFoldOuter .foldBoxContactInner .colsBoxContact{width:100%;margin:0;}
+    .marketingPage .marktFoldOuter .marktFoldSec .marktFoldBox.foldBox_ContactUs .marktFoldBoxInner{text-align:center;}
+    .marketingPage .marktFoldOuter .marktFoldSec .marktFoldBox.foldBox_teachers, .marketingPage .marktFoldOuter .marktFoldSec .marktFoldBox.foldBox_testimonial {padding: 30px 15px 0;}
+    .marketingPage .marktFoldOuter .marktFoldSec .marktFoldBox.foldBox_teachers .hedingTabfold, .marketingPage .marktFoldOuter .marktFoldSec .marktFoldBox.foldBox_testimonial .hedingTabfold{margin: 0px 0px 20px;}
+     
+     .marketingPage .mrktSlider .marktSliderInner .marktStudntIcon{top:50%;transform:translate(-50%, -50%);}
+     .marktStudntIcon img{max-width:290px}
+    /*.marketingPage .mrktSlider .marktSliderInner .leftInfo{max-width: }*/
+    .marketingPage .mrktSlider .marktSliderInner .leftInfo .heading{position:absolute;top:120px;font-size:24px;max-width: 150px;line-height: normal;}
+    .marketingPage .mrktSlider .marktSliderInner .leftInfo p{position:absolute;bottom:30px;}
+    .marketingPage .mrktSlider .marktSliderInner{height:100vh;padding: 0;}
+
+    .marketingPage .testimonial_quote{}
+.marketingPage .testimonial_quote{ top: 30px; left: 0; width: 100%; transform: translateY(0%);}
+.marketingPage .testimonial_quote .testimonial_quote_txt {
+    font-size: 20px;
+    padding: 13px 40px;
+}
+.marketingPage .testimonial_quote.testimonial_quoteRight{ right: 0 }
+
+
+  .marketingPage .marktFoldOuter .marktFoldSec .marktFoldBox .foldBoxSubsContent{
+    transform: translateY(-60%);
+  }
+  .marketingPage .marktFoldOuter .marktFoldSec .marktFoldBox .foldSubscTxt{ margin:0 0 15px}
+}
+
+@media (max-width:600px){
+
+  .marketingPage .marktFoldOuter .marktFoldSec .marktFoldBox .foldFeatureTabContent .tabImg{width:300px !important;}
+  
+  .marketingPage .marktFoldOuter .foldBoxContactInner .colsBoxFollowUs{width:100%;float:left;}
+/*  .marketingPage .marktFoldOuter .foldBoxContactInner .colsBoxContact{margin:20px 0 0;float:left;width:100%;}*/
+  .marketingPage .marktFoldOuter .foldBoxContactInner .contcTxtBox{margin:0;}
+  .marketingPage .marktFoldOuter .marktFoldSec .marktFoldBox.foldBox_ContactUs{text-align:center;}
+  .marketingPage .marktFoldOuter .mrktCleintSec .clientImg{max-width:100px}
+  .marketingPage .marktFoldOuter .subsBtnSec{width:100%;}
+  .marketingPage .marktFoldOuter .subsBtn{display:block;margin:0 auto 20px;}
+  .marketingPage .marktFoldOuter .subsBtn:last-child{ display:block;margin:0 auto;}
+  .marketingPage .headerLeft{padding: 0 15px}
+  .marketingPage #comparison .mrkConMid{ margin: 0 10px }
+  .marketingPage .peerDynImgTxtTop{transform:scale(.8);top:20px;left:0;}
+  .marketingPage .peerDynImgTxtTop .peerTxtTime{margin: 0px 0px 0;}
+  .marketingPage .peerDynImgTxtTop .peerDynImgTxtComment{margin:0 0 3px;max-width:140px;}
+  .marketingPage .peerDynImgTxtTop .peerDynResrceTxt{padding:0 0 0 25px;max-width:100px;overflow:hidden;white-space:nowrap;text-overflow: ellipsis;}
+  .marketingPage .peerDynImgTxtBottom{bottom:30px;transform: scale(.8);left:0;}
+  .marketingPage .peerProfileNametop{left:26px;top:-3px;font-size:11px}
+  .marketingPage .peerProfileNameBot{bottom:76px;left:26px;font-size:11px}
+  .marketingPage .peerDynImgTxtBottom .peerTxtTime{margin:0;}
+}
+@media (max-width: 500px){
+   .marketingPage .peerDynImgTxtBottom{bottom:25px;}
+   .marketingPage .peerDynImgTxtTop{top:25px;}
+}
+@media (max-width:350px){
+
+  .marketingPage .marktFoldOuter .marktFoldSec .marktFoldBox .foldFeatureTabContent .tabImg{width:250px !important;}
+   .marketingPage .marktFoldOuter .marktFoldSec .marktFoldBox.foldBox_ContactUs .masKotImg img{max-width:100px;}
+   .marketingPage .marktFoldOuter .marktFoldSec .marktFoldBox .foldFeatureTabContent.content_3 .tabImg{right:0;}
+   .marketingPage .peerDynImgTxtBottom{bottom:20px;}
+   .marketingPage .peerDynImgTxtTop{top:18px;}
+}
+
+
+
+
+
+
+.swiper-slide-active{ 
+@-webkit-keyframes fadeInRight {
+  from {
+    opacity: 0;
+    right:-100px;
+  }
+
+  to {
+    opacity: 1;
+    right:20px;
+  }
+}
+.fadeInTestimon_img{animation:fadeInRight 0.9s}
+
+.foldThemeBtnList li .tooltip.top{ bottom: 100%;width: 100px; opacity: 1; left: -32px; animation:clickHere 2s 1s infinite}
+
+
+@keyframes clickHere {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+
+  15% {
+    transform: translate3d(-20%, 0, 0) rotate3d(0, 0, 1, -3deg);
+  }
+
+  30% {
+    transform: translate3d(15%, 0, 0) rotate3d(0, 0, 1, 2deg);
+  }
+
+  45% {
+    transform: translate3d(-10%, 0, 0) rotate3d(0, 0, 1, -2deg);
+  }
+
+  60% {
+    transform: translate3d(5%, 0, 0) rotate3d(0, 0, 1, 1deg);
+  }
+
+  75% {
+    transform: translate3d(0%, 0, 0) rotate3d(0, 0, 1, 0deg);
+  }
+
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+}
+ 
+
+
+@-webkit-keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    left:-100px;
+  }
+
+  to {
+    opacity: 1;
+    left:20px;
+  }
+}
+.fadeInTestimon_imgLeft{animation:fadeInLeft 0.9s}
+
+
+  @keyframes slideInUp {
+    from {
+      opacity: 0;
+      transform:translateY(50px);
+    }
+
+    to {
+      opacity: 1;
+      transform:translateY(0);
+    }
+  }
+  .slideInUp,.leftInfo,.mrktFoldWelcome, .marktFoldBox{animation: slideInUp 0.7s; }
+  .marktStudntIcon img{animation: slideInUp 1.5s;}
+  /*ie 11 hack*/
+
+   @media all and (-ms-high-contrast:none)
+     {
+     
+     *::-ms-backdrop, .slideInUp,.leftInfo,.mrktFoldWelcome, .marktFoldBox { animation:none;} /* IE11 */
+     }
+
+  @keyframes fadeIn {
+   from {
+      opacity: 0;
+    }
+
+    to {
+      opacity: 1;
+    }
+  }
+
+  @keyframes slideUp {
+   from {
+      visibility: visible;
+      bottom: 0
+
+    }
+
+    to {
+      bottom: 40px
+    }
+  }
+  .slideUp { animation: slideUp .8s;}
+  
+  @keyframes foldZoomIn {
+   from {
+      transform:scale(0);
+
+    }
+
+    to {
+      transform:scale(1);
+    }
+  }
+  
+  .foldZoomIn{animation: foldZoomIn 2s;}
+ 
+  
+  .fadeIn {
+    /*animation: fadeIn .5s;*/
+  }
+ /* .animationFold_2{animation-duration:2s;}
+  .animationFold_3{animation-duration:3s;}
+  .animationFold_4{animation-duration:4s;}
+*/
+}
+
+@keyframes rubberBand {
+  from {
+    transform: scale3d(1, 1, 1) rotate(45deg);
+  }
+
+  30% {
+    transform: scale3d(1.25, 0.75, 1) rotate(45deg);
+  }
+
+  40% {
+    transform: scale3d(0.75, 1.25, 1) rotate(45deg);
+  }
+
+  50% {
+    transform: scale3d(1.15, 0.85, 1) rotate(45deg);
+  }
+
+  65% {
+    transform: scale3d(.95, 1.05, 1) rotate(45deg);
+  }
+
+  75% {
+    transform: scale3d(1.05, .95, 1) rotate(45deg);
+  }
+
+  to {
+    transform: scale3d(1, 1, 1) rotate(45deg);
+  }
+}
+
+.rubberBand {
+  animation: rubberBand 1s;
+ }
+
+
+
+
+
+.scroll-downs {position: absolute;  right: 0; bottom:20px; left: 0; margin: auto;  width:114px; height: auto; z-index: 99;
+  .mouse{ display: block; margin: 0 auto 10px }
+	.mousey { width: 3px; padding: 10px 15px; height: 35px; border: 2px solid #fff; border-radius: 25px; opacity: 0.75;  box-sizing: content-box;}
+  p{ padding: 0; margin: 0 }
+	.scroller { width: 3px; height: 10px; border-radius: 25%; background-color: #fff; animation-name: scroll;  animation-duration: 2.2s;  animation-timing-function: cubic-bezier(0.15, 0.41, 0.69, 0.94);  animation-iteration-count: infinite;}
+}
+@keyframes scroll {
+  0% {
+    opacity: 0;
+  }
+  10% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(15px);
+    opacity: 0;
+  }
+}
+
+.swiper-container-vertical>.swiper-pagination-bullets{right:0px !important; 
+  .swiper-pagination-bullet{ transition: all 0.5s;
+    &:hover{ transform:scale(1.4);  }
+  }
+}
+
+
+//New
+
+
+.swiper-slide-active div#comparison #divisor{ width: 50% }
+
+div#comparison {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+
+  .mrktSlider{
+      width: 100vw;
+      max-width: 100vw;
+      min-width: 100vw;
+  }
+#divisor{ position: absolute; width: 0px; left: 0; top: 0; height: 100vh; z-index: 999;   }
+
+  input[type="range"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    position: absolute;
+    bottom:  64px;
+    left: 5%;
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 90%; height: 40px; z-index: 9999; opacity: 0; cursor: pointer;
+  }
+  input[type="range"]:focus {
+    outline: none;
+  }
+  input[type="range"]:active {
+    outline: none;
+  }
+
+  input[type="range"]::-moz-range-track {
+    -moz-appearance: none;
+    height: 15px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.1);
+    
+    outline: none;
+  }
+  input[type="range"]::active {
+    border: none;
+    outline: none;
+  }
+  input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 80px;
+    height: 50px;
+    background: #fff;
+    border-radius: 0;
+  }
+  input[type="range"]::-moz-range-thumb {
+    -moz-appearance: none;
+    width: 80px;
+    height: 50px;
+    background: #fff;
+    border-radius: 0;
+  }
+  input[type="range"]:focus::-webkit-slider-thumb {
+    background: rgba(255, 255, 255, 0.5);
+  }
+  input[type="range"]:focus::-moz-range-thumb {
+    background: rgba(255, 255, 255, 0.5);
+  }
+ }
+
+.videoOpenBody .scroll-downs{ opacity: 0 }
+
+
+
+.swiper-container-fade .swiper-slide{ opacity: 0!important }
+.swiper-container-fade .swiper-slide.swiper-slide-active{ opacity: 1!important }
+
+/* marketin pop up */
+.introBuddyPopOverlay{background:rgba(0,0,0,0.7);position:absolute;left:0;top:0;width:100%;height:100vh; overflow-x:auto;z-index:999;padding:60px 15px 30px;
+  .introBuddyPop{width:730px;margin:0 auto;background:$colorWhite;border-radius:8px;padding:30px 50px;position:relative;}
+  .introByddyHeading{font-size:32px;font-weight:$fmedium;color:$colorLinks;margin:0 0 8px;}
+  .introByddyTxt{font-size: 16px;color:$colorDark;margin:0 0 25px;}
+  .inputGroup{ width:50%;float:left;padding:0 15px 0 0;}
+  .inputGroup:nth-child(2n + 2){padding:0 0 0 15px;}
+  .inputGroup label{font-size:12px;color:$colorDarkLight;margin:0 0 2px;}
+  .selectCtry .select__arrow {
+    height: 12px;
+    position: absolute;
+    right: 15px;
+    top: 8px;
+    width: 12px;
+   }
+   .selectCtry select{-webkit-appearance:none;font-size:11px;padding: 0 0 0 10px; position: relative; z-index: 1}
+   .regFormElements .contrySelect .formControl{     padding-left: 125px; }
+   .select_bg{background:$colorWhite url('~assets/images/marketing/selcet_arrow_normal.png') no-repeat right 0;height:40px; display: block;outline:none;
+    width: 100%;
+    padding: 5px 38px 5px 10px;
+    border: 1px solid $colorBorderLightNew;
+    height: 40px;
+    border-radius: 4px;-webkit-appearance:none;-moz-appearance:none;appearance:none;}
+    .select_bg:focus{border-color:$colorSecondary;background-image:url('~assets/images/marketing/selcet_arrow_active.png');}
+    .btnRequestDemo{min-width:200px;height:40px;background:$colorSecondary;border-radius:4px;text-align:center;display: inline-block;padding: 6px 12px;color:$colorButton;font-size:14px;font-weight:$fregular;border:0;}
+    .regFormElements .inputRow{margin:0 0 25px;}
+   .closePopBtn{position:absolute;right:20px;top:12px;color:#1d1d1b;cursor:pointer;font-size:30px;}
+   .closePopBtn .material-icons{font-size:30px}
+
+}
+
+ @media (max-width:767px){
+  .introBuddyPopOverlay{padding:30px 10px;}
+  .introBuddyPopOverlay .introBuddyPop{width:100%;padding:20px 15px;}
+  .introBuddyPopOverlay .introByddyHeading{font-size:24px}
+ 
+  .scroll-downs{ bottom: 50px;     transform: scale(0.8); }
+  .marketingPage .mrktSlider .marktSliderInner .leftInfo .heading{ top: 80px }
+    .marktStudntIcon img{max-width:210px}
+    .marketingPage .mrktSlider .marktSliderInner .marktStudntIcon{ top: 42% }
+    .marketingPage .mrktSlider .marktSliderInner .leftInfo p{ bottom: 60px }
+    .marketingPage .marktFoldOuter .mrktCleintSec{ padding: 0; justify-content: center; }
+    .marketingPage .marktFoldOuter .subsBtn{ height: 50px }
+    .marketingPage .marktFoldOuter .marktFoldSec .marktFoldBox.foldBox_ContactUs .masKotImg{ width: 80px; bottom: 40px }
+    .marketingPage .marktFoldOuter .marktFoldSec .foldThemeBtn{ bottom: 50px }
+    .marketingPage .marktFoldOuter .subsBtnSec{ margin: 0 0 30px }
+    .marketingPage .marktFoldOuter .marktFoldSec .marktFoldBox.foldBox_ContactUs{min-height:630px;}
+} 
+ @media (max-width:500px){
+    .introBuddyPopOverlay .inputGroup{width:100%;padding:0;margin:0 0 15px}
+    .introBuddyPopOverlay .regFormElements .inputRow{margin:0;}
+    .introBuddyPopOverlay .inputGroup:nth-child(2n+2){padding: 0;}
+    .introBuddyPopOverlay .btnRequestDemo { display: block; width: 100% }
+}
+
+
+
+
+
+/*marketing TC css*/
+.marketingPage.marktPgTc .marktFoldOuter .marktFoldSec .marktFoldBox.termCondition{background:$colorWhite;padding: 45px 0 0;}
+.marketingPage.marktPgTc .marktFoldOuter .marktFoldSec .marktFoldBox{height:100%;min-height:100%;}
+.marketingPage.marktPgTc .marktFoldOuter .marktFoldSec{    background: #3f51b5;padding: 0 15px 0;}
+.marketingPage.marktPgTc .mrkConMid{padding:0;}
+.marketingPage.marktPgTc .marktFoldOuter .marktFoldSec .marktFoldBox.termCondition .hedingTabfold {font-size: 34px;color:$colorPrimary;text-align: center;margin: 0 0 50px;font-family: Montserrat,sans-serif!important;word-wrap: break-word;font-weight:$fbold;}
+.termCondition .termCondInner{padding:0 70px;}
+.termCondInner, .partnersPage{animation: slideInUp 0.7s;}
+.marktPgTc .breadcrumb{list-style: none;background:$colorWhite;padding:0;margin:0 0 15px -10px;
+  & >li {display: inline-block;position:relative;font-size:14px;padding:0 10px;}
+  & >li a{color:$colorPrimary;text-transform:uppercase;font-size:14px;}
+  & >li+li:before {padding:0;position:absolute;content:"chevron_right";font-family:"Material Icons";left:-10px;font-size:18px;top:-3px;color:$colorPrimary;}
+  & >.active{color:$colorExtraDark;}
+}
+.termConContent{margin:0 0 80px;color:$colorDarkLight;font-size:18px;}
+.termAConLastUpdate{font-size:18px;color:$colorExtraDark;text-transform:uppercase;}
+.termConTxt{margin:0 0 15px;}
+.marketingPage.marktPgTc .mrkHeader{position:static;margin:0 0 85px;}
+.headerCloseBtn .material-icons{vertical-align: top;margin:-5px 0 0;color:$colorWhite;}
+.marketingPage.marktPgTc .mrkHeader nav li{margin: 0 0 0 10px;}
+/*.marketingPage.marktPgTc .marktFoldOuter .marktFoldSec  .foldBox_ContactUs{  }*/
+.marketingPage.marktPgTc .marktFoldOuter .marktFoldSec .marktFoldBox.foldBox_ContactUs{ min-height: 540px;background: #262728;color: #929393;font-size: 14px;border-radius:0;box-shadow:none;}
+.marketingPage.marktPgTc .langShowWeb ul{min-width:200px;}
+.marketingPage.marktPgTc .marktFoldOuter .marktFoldSec .marktFoldBox.foldBox_ContactUs  .marktFoldBoxInner{top:85px;transform:none;}
+.marketingPage .footerLinkSec{margin:0 0 30px;padding:0 40% 0 0}
+.marketingPage .footerLinks{list-style:none;padding:0;margin:0;}
+.marketingPage .footerLinks li{display:inline-block;width:50%;}
+.marketingPage .footerLinks li a{font-weight:$fmedium;display:block;text-align:left;font-size:12px;color:$colorWhite;text-transform:uppercase;padding:15px 0;}
+
+/*career css*/
+.carerProfileSec{color:$colorExtraDark;}
+.carerProfileCols{color:$colorExtraDark;margin-bottom:50px;}
+.carerProfileName{color:$colorPrimary;font-weight:$flight;font-size: 26px;margin:0 0 10px;text-decoration:none;display:block;}
+.carerProfileDes{font-size:18px;margin:0 0 10px;}
+.carerProfileLoc{color:$colorDarkLight;font-size:16px;}
+.carerContTxtSec{color:$colorDarkLight;margin-bottom:80px;font-size:18px;}
+.carerContTxtSec img{border-radius:4px;}
+.carerContTxt{padding-top:4%;}
+.carerContTxtHeading{font-weight: $flight;font-size: 26px;margin:0 0 15px;color: $colorExtraDark;}
+.helpDeskContTxt{color:$colorExtraDark;font-weight:$flight;font-size: 26px;margin:0 0 25px;}
+.staticPgContentSec{padding:0 0 50px}
+
+.legalContList{margin:0;padding: 0;list-style:none;}
+.legalContList li{font-weight: $flight;font-size: 26px;margin:0 0 20px;padding:10px 10px 10px 80px;color: $colorExtraDark;;position:relative;}
+.legalContList li .cercle{content:"";position:absolute;left: 0; top:0;border-radius:50%;width:51px;height: 51px;border:1px solid $colorPrimary;}
+.legalContList li .cercle i{font-size:50px;color:$colorPrimary;position:absolute;left: 0; top:0;border-radius:50%;}
+
+
+
+@media (max-width: 992px){
+.marketingPage.marktPgTc .mrkHeader .langShowMob{display:none;}
+.staticBody .marketingPage.marktPgTc .mrkHeader .langShowMob{display:block;}
+.marketingPage.marktPgTc .mrkHeader .marktLogo{float:left !important;}
+.marketingPage.marktPgTc .mrkHeader nav {transform: scale(1);position: static;background:transparent;width:auto;padding:0;}
+.marketingPage.marktPgTc .marktMobMenu{display:none!important}
+.marketingPage.marktPgTc .mrkHeader nav li{display:inline-block;width:auto}
+.marketingPage.marktPgTc .mrkHeader {margin: 0px 0px 60px;}
+}
+@media (max-width:767px){
+  .marketingPage.marktPgTc .marktFoldOuter .marktFoldSec .marktFoldBox.termCondition .hedingTabfold{font-size: 28px;}
+  .termCondition .termCondInner {padding: 0 15px;}
+  .marketingPage.marktPgTc .marktFoldOuter .marktFoldSec .marktFoldBox.foldBox_ContactUs{min-height:630px}
+  /*.marketingPage .footerLinks li{width:100%}*/
+  .marketingPage .footerLinks li a{ text-align: center; }
+  .marketingPage .footerLinkSec{padding: 0;}
+  .stataticPageOuter .queAnsSec li .material-icons{ font-size: 30px }
+  .stataticPageOuter .queAnsSec li .qusArrow{ top: -2px }
+  .stataticPageOuter .queAnsSec li .ansSec,
+  .stataticPageOuter .queAnsSec li .queRow{ padding: 0 0 0 50px; font-size: 20px }
+.stataticPageOuter .queAnsSec li .ansSec, 
+.termConContent{ font-size: 14px }
+.stataticPageOuter .queAnsSec li .queRow{ font-size: 18px }
+.stataticPageOuter .queAnsSec li{ margin: 0 }
+
+.stataticPageOuter.marketingPage .mrkConMid{ padding: 0 }
+.marketingPage .footerLinks li a{ padding: 10px 0 }
+.marketingPage .marktFoldOuter .marktFoldSec .marktFoldBox.foldBox_ContactUs .masKotImg{ display: none; }
+
+
+
+.legalContList li{font-size: 18px;padding: 10px 10px 10px 40px}
+.legalContList li:before{width:30px;height: 30px;top:10px;}
+.legalContList li:after{font-size:30px;top:4px;}
+.helpDeskContTxt{font-size: 18px;}
+.carerProfileName{font-size:20px;}
+.carerProfileDes{font-size: 18px;}
+.carerProfileLoc{font-size: 16px;}
+.carerProfileCols{margin-bottom:35px;}
+.carerContTxtHeading{font-size:20px;}
+.carerContTxt{font-size:14px;}
+.carerContTxtSec{    margin-bottom: 50px;}
+
+}
+.marketingPage .featuresLink .langSelect .dropdownSel ul{ width: 300px}

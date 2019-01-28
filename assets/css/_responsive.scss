@@ -1,0 +1,784 @@
+@media (max-width: 1260px){
+	.sideProfileInfo{ min-width: 350px }
+	.userInfoBox{ margin: 0 0 0 10px }
+	.homePage .sideProfileInfo{ min-width: 404px;}
+	.leftMenu{ padding: 15px 0 0 }
+	.sideProfileInfoStudy { min-width: 160px;}
+	.sideProfileInfoBuddy {min-width: 160px!important;}
+	.sideProfileInfoStudy .leftMenu ul li.active:after {right: -42px;}
+	.srchBox{  margin-right:160px }
+	.sideProfileInfo.sideProfileInfoProfile{     min-width: 260px; }
+	.editTheme { top: 5px; right: 5px;
+		.material-icons{ font-size: 18px}
+	}
+  .sideProfileInfo{padding-top: 30px}
+  .primaryClassBody.homePage .leftMenu{padding-top: 0px}
+  .copyRight{ width: 240px }
+}
+@media (max-width: 1160px){
+	.header .nav ul{ padding-left: 250px; }
+	.conMidSec{ padding: 0 40px }
+	.header .headMid .container{padding: 0 30px}
+	.buddylistinline{ margin-right: -20px  }
+	.buddySec .buddycustom-box{ max-width: 390px }
+	.referForm{ margin: 100px 0 0 }
+	.header .logo{ left: 30px }
+	body,.header{ min-width: 1100px }
+	.header{ position: absolute; }
+	.header .userMenu li.stngBnt .dropdown-menu li a{ padding: 15px 30px }
+}
+@media (max-width: 1000px){
+	.HelpPage{
+	  .itemOuterRow{  
+	    .item{ width: 48%  }
+	  }
+  }
+  
+  .marketingPage .videoBg .mrktCleintSec{ width:80%; text-align:center; flex-wrap:wrap;    justify-content: space-evenly; }
+  .marketingPage .videoBg .mrktCleintSec img{ margin:5px 2px; max-height:30px}
+
+
+
+}
+@media (max-width:700px){
+	.HelpPage{
+	  .itemOuterRow{ 
+	    .item{ width: 100%; margin:0 0 30px }
+	  }
+	}
+  .stataticPageOuter .queAnsSec li .ansSec{     padding: 0;}
+  .marketingPage .videoBg .mrktCleintSec{ width:100%;}
+  .marketingPage .videoBg .videoCaption{ margin-top:-30px}
+}
+
+
+
+
+/*@media (min-width: 1200px){
+  .item:nth-child(5n+5),
+  .item:nth-child(5n+6) {
+    .quickInfo{right: calc(100% + 15px); left: auto;}
+  }
+}
+*/
+
+
+
+
+@media (min-width: 1600px){
+      .postPopViewSec .popInnner{    margin: 30px auto;}
+
+
+}
+
+
+
+@media (max-width: 1300px){
+  /*.activityGrphSec{
+    .item:nth-child(4n+3) .quickInfo, 
+    .item:nth-child(4n+4) .quickInfo,
+    .item{ right: auto; left: 0 }
+    .item:nth-child(3n+2){
+      .quickInfo{right: 0; left: auto;}
+    }
+    .item:nth-child(3n+3){
+      .quickInfo{right: 0; left: auto;}
+    }
+  }
+
+  .item:nth-child(4n+3),
+  .item:nth-child(4n+4) {
+    .quickInfo{right: calc(100% + 15px); left: auto;}
+  }*/
+}
+
+
+
+@media (min-width: 1301px) and (max-width: 1700px){
+ 
+ /* .item:nth-child(5n-1),
+  .item:nth-child(5n+5)  {
+    .quickInfo{right: calc(100% + 15px); left: auto;}
+  }*/
+}
+
+@media (min-width: 1701px){
+  .postSlider .carousel-3d-slide .firstCardsItem{ height: 351px; }
+}
+
+@media (min-width: 2001px){
+
+ 
+	body{font-size:18px;}
+.conMidSec{ padding: 0 80px }
+   .regFormElements .formControl{height:55px;}
+   .form-control{font-size:20px;}
+   .btn{padding:10px 20px;}
+   .footer{font-size:18px;}
+   label{margin-bottom:10px;}
+   .h5, h5{font-size: 18px;}
+   .checkIcoSubstype{width:30px;height:30px;top:14px;left:12px;}
+   .checkIcoSubstype:after{width:8px;height:16px;left:8px;left:9px;top:3px;}
+   .regFormElements .contrySelect .selectCtry{height:55px;padding:5px 0 0 5px;}
+   .copyRight, .footer{font-size:16px;}
+   .btn-border,.megaSearch .searchBox .btn{font-size:20px;}
+
+   .copyRight{ width: 360px }
+
+	/*.primaryViewPosts{ padding: 10% 0 0 }*/
+	.subscribe_sec{ width: 650px;}
+	.subscribe_sec .subscribeInner{max-width:500px}
+	.subscribe_sec .welcomeLoginTxt, .forgotBox .welcomeLoginTxt, .selectUserTypePopup h3, .welcomText{font-size:30px;}
+	.subscribe_sec .regesterTxt, .forgotBox .regesterTxt, .selectUserTypePopup p, .parentLoginForm .subscHeading{font-size:22px;}
+	.subscribe_sec .loginInput label, .regFormElements label, .subscribe_sec .forgetPass, .btn-resendPassBtn, .subsrbPlan .mostPopularSec, .regFormElements .text, .redeemBuySellFormSec p, .scubscrpSteps li{font-size:20px;}
+	.subscribe_sec .form-control{height:55px;}
+       
+
+      .regFormElements .control__indicator, .extraOptCheck .control__indicator{height: 25px;width: 25px;top:0;}
+      .subscribe_sec .forgetSec .control, .regFormElements .control{padding-left:36px;}
+      .control--checkbox .control__indicator:after, .extraOptCheck .control input:checked~.control__indicator:after{width: 8px;height: 16px;}
+      .regFormElements .control--checkbox .control__indicator:after, .extraOptCheck .control input:checked~.control__indicator:after{left: 8px;top: 0}
+      .subscribe_sec .regFormElements .terms{font-size: 20px!important;}
+      .subscribe_sec .forgetSec{margin:6px 0 15px;}
+      .regFormElements .inputRow{margin:0 0 20px;}
+      .subscribe_sec .loginSignBtn, .subscribe_sec .btnSubscription{font-size:20px !important;height:50px;}
+      .forgotBox{width:550px;}
+      .forgotBox .forgotBoxInner2{width:440px;}
+      .regFormElements .btns .btn{min-width:120px}
+      .regFormElements .viewPass{top:1px;height:54px;width:50px;}
+      .regFormElements .viewPass i{    margin: 20px 0 0;}
+      .selectUserTypePopup .modal-dialog, .regForm{width:620px;}
+      .selectUserTypePopup .modal-dialog .modal-content .minner{max-width:450px;}
+      .selectUserTypePopup .btns{margin:20px 0 0;}
+      .selectUserTypePopup .modal-dialog .btn{padding: 15px;font-size: 20px;height:55px;}
+      .promocodePop .proCodeInput .btn{height:53px;}
+      .btnNext .Nico{width:50px;height:50px;}
+      .btnNext .material-icons{font-size: 45px;}
+      .trailInfo .material-icons, .pclose .material-icons{font-size:30px;}
+      .promocodePop .trailInfo .infoContent{font-size: 18px;/*min-width: 400px*/}
+      .trailInfo .infoContent h6, .subsrbPlan .planOldPrice, .stataticPageOuter .queAnsSec li .queRow{font-size:24px;}
+      .promocodePop .btnNext{margin:0 0 30px !important;}
+      .plansOuterContainer{max-width:1200px;}
+      .subsrbPlan{width:340px;min-height:580px;}
+      .subsrbPlan .planDays, .subsrbPlan .planPrice,.selectedPlan .doneIcon{font-size:32px;}
+      .subsrbPlan .planOffer{min-width:90px;font-size:16px;height:30px;line-height:30px;}
+      .subsrbPlan .planInfo{max-height:250px;}
+      .subsrbPlan .planInfo li{font-size:18px;}
+       .leftMenu ul li a{font-size:18px;font-weight:$flight}
+      .subsrbPlan .likeIcon{width:18px;height:18px;background-size:18px;}
+      .subsrbPlan .planSelectBtn{width:310px;height:55px;font-size:20px;line-height: 55px;}
+      .subsrbPlan .planSelectBtn .checkedIcon:after{width:10px;height: 20px;    border-width: 0 3px 3px 0;}
+      .selectedPlan p{font-size:28px;}
+      .nextBtnNew{min-width:120px !important;height:60px;font-size:20px;margin-right:0;}
+      .regFormElements .regFormBoxInner{width:450px;}
+      .selectedPlan{height:110px; padding: 30px 0 0;}
+      .regFormElements .contrySelect .contryCode{top:7px;}
+      .scubscrpSteps{top:36px;}
+      .scubscrpSteps .stepNum{width:25px;height:25px;line-height:25px;font-size:17px;}
+      .redeemBuySellFormSec .buySellFormBox{width:600px;}
+      .closeBtn_noBg{right:20px;}
+
+
+
+      .sideProfileInfo{min-width: 540px;     min-height: calc(100vh - 90px);}
+      .leftMenu{width:120px; transform: scale(1.1); margin-right:5px }
+      /*.primaryViewPosts{padding:5% 0 0;}*/
+      .postThoughts input{height:58px;font-size:20px;padding:4px 45px 4px 70px}
+      .postThoughts .img{width:40px;height:40px;}
+      .postThoughts .img img{width:40px;height:40px;}
+      
+      .cmtBox .allCommentElemOuterSec .img .picPlaceHolder, 
+      .postShareTextBox .img .picPlaceHolder, 
+      .postThoughts .img .picPlaceHolder, 
+      .testimonialListing li .img .picPlaceHolder{width:50px;height:50px;font-size:22px;line-height:50px;}
+
+
+      .cmtBox .allCommentElemOuterSec .img  img, 
+      .postShareTextBox .img  img, 
+      .postThoughts .img  img, 
+      .testimonialListing li .img  img{width:50px;height:50px;font-size:22px;line-height:50px;}
+
+
+   .postThoughts .img .picPlaceHolder,
+   .postThoughts .img  img,
+   .postShareTextBox .img img,
+   .postShareTextBox .img .picPlaceHolder {width:40px;height:40px;font-size:18px;line-height:40px;}
+
+
+
+      .textarea-container .textarea-size, .textarea-container textarea{font-size:17px !important;}
+      .postShareTextBox .statusText{margin-left:55px}
+      .postPopUpSec .modal-footer{padding:6px 12px;}
+      .statusBtns .submitBtn, .saveBtns .btn, .btn-default,.chatBtn{font-size:20px;}
+      .welcomText .backBtn{width:40px;height:40px;}
+      .statusBtns .material-icons, .pclosebtn .material-icons, .firstCardsItem .text, .likeList h3{font-size:30px;}
+      .tbs, .postItem h4, .likeIcons .btn-link, .whiteTab li a,.pEditProfileBtn .btn, .likeList .name, .headingBordered{font-size:20px}
+      .postItem .datime, .actionPopup>li>a, .userInfoBox .infoTop .pointsCoinsCol, .userInfoBox .infoTop ul li, .sideProfileInfoProfile .unfinishedBox .text, .profileInfiSide .text .bio, .commentList .comment_name, .commentList .media .comnt, .commentList .media .date, .likCommentBar span, .postDetailsInner .modal-content .postItem h4, .uploadPicPopup .picSizeTxt{font-size:18px;}
+      /*.carousel-3d-slide .postItem .info{font-size:24px;min-height:90px;max-height:90px}*/
+      .carousel-3d-slide .postItem .media-left .picPlaceHolder, .carousel-3d-slide .postItem .media-left img{width:200px;height:200px;font-size:100px;line-height:200px;}
+ 
+
+      .carousel-3d-slide .postItemSharedBox .media-left  .picPlaceHolder, 
+     .carousel-3d-slide .postItemSharedBox .media-left img{width:50px;height:50px;font-size:22px;line-height:50px;}
+
+
+      .dropdown-toggle .material-icons, .megaSearch .searchBox .material-icons{font-size:35px;}
+      .postItem .datime .material-icons, .userInfoBox .infoTop h3{font-size:24px; padding: 10px 0}
+ 
+      .dropdown-toggle .material-icons{font-size:35px;}
+      .megaSearch .searchBox .material-icons{font-size:35px;top:14px;}
+      .postItem .datime .material-icons, .userInfoBox .infoTop h3{font-size:24px;}
+ 
+      .firstCardsItem .findHeading{font-size:40px;}
+
+      .userInfoBox{width:300px;}
+
+      .userInfoBox .infoTop .img{width:150px;}
+      .userInfoBox .infoTop .img .picPlaceHolder{width:150px;height:150px;line-height:150px;font-size:90px;margin:10px 0 15px;}
+      .profileInfiSide .text .material-icons{font-size:20px;vertical-align:top;top:17px;}
+      .userInfoBox .infoTop ul li .material-icons{font-size:22px;top:3px;}
+      .userInfoBox .infoTop ul li{padding: 0 15px 0 43px}
+      .pclose span{width:40px;height:40px;font-size:38px;line-height:40px;padding:3px 0 0}
+      .commentList .media .media-left .img{width:40px;height:40px;}
+      .commentList .media .media-left .img .picPlaceHolder{width:40px;height:40px;line-height:40px;}
+      .statusBtns .submitBtn{min-width:120px;}
+      .textarea-container, .allCommentElemOuterSec{    min-height: 100px;}
+      .cmtBox .textBody{    margin: 0 180px 0 40px;}
+      .postDetailsInner .modal-content .info{font-size:16px;}
+      .boardPgUploadBtn{width:400px;height:300px;}
+      .boardPgUploadBtn .uploadBtnIcon{font-size:24px;}
+      .boardPgUploadBtn .uploadBtnIcon .material-icons{font-size:60px;}
+      .smallHeading{font-size:30px; padding: 0 0 30px}
+      .profileContainer, .editProfileImgSecMidPage{max-width:1100px}
+      .profileEditContent{max-width: 680px;}
+      .regFormElements .select select{height:55px;}
+      .profileEditContent .subjectsList ul li{width:145px;font-size:18px;}
+      .profileEditContent .subjectsList ul .subImg{width:100px;height:100px;}
+      .topHeading, .selectThemePop .topHead{font-size:22px;height:50px;line-height:45px;}
+      .topHeading .material-icons{font-size:27px;}
+      .uplodBtnGreen{height: 55px;line-height: 55px;font-size:20px;margin:0 0 10px;}
+      .uploadPicPopup .contentCenter{max-width:250px}
+      .mscrt img{max-width:140px;}
+      .mscrt .mascotHlp{width:400px;}
+      .mascotHlp h3{font-size:18px;font-weight:400;}
+      .placeholderSec .placeholderHeading{font-size:40px;}
+      .placeholderSec .placeHoldTxt{font-size:20px;}
+      .rankBox{font-weight:400;}
+      .rankBox .rankPoint, .rankBox .rankTxt,.addBuddyAcsnBoxProfile .btn{font-size:18px;}
+      .rankBox .rankTxt, .testimonialListing li .comments{font-size:18px;}
+      .testimonialListing li .commentSec{width:400px;}
+      .testimonialListing li .commentSec p{padding:0 90px 0 0;}
+      .testimonialListing li .commentSec p img{width:60px !important;}
+      .testimonialListing li .tetimonialInfo.self .img, .testimonialListing li .tetimonialInfo.self .img .picPlaceHolder{width:80px;height: 80px;line-height:80px;}
+      .pointSec .pointTxt{font-size:24px;}
+      .timeSelect{font-size:18px;width:140px;}
+      .timeSelect .selectedTime{height:40px;}
+      .timeDropIcon .material-icons{font-size:26px;}
+      .testimonialListing li .tetimonialInfo .testimonialNum, .testimonialListing li .tetimonialInfo{font-size:18px;}
+      .testimonialListing li .img, .testimonialListing li .img img{width:50px;height:50px;}
+      .ubadgeProfile img, .testimonialListing .imgMsct{width:60px !important;}
+      .selectThemePop .topHead .material-icons{font-size:27px;vertical-align:middle;margin:0 10px 0 0;}
+      .selectThemePop .profileThemeBtnSec .profileThemeBtn{width:150px;height: 150px;}
+      .selectThemePop{width:950px;}
+      .selectThemePop .bottomFooter{height:70px;padding:15px;}
+      .selectThemePop .submitBtn{min-width:90px;}
+      .selectThemePop .submitBtn, .whiteTabBorderd li a, .control, .referForm .form-control{font-size:20px;}
+      .addBuddyAcsnBoxProfile .acsnBtn .dropdown-menu li a{font-size:20px;}
+      .graphResultInfo .graphInfoListing li{font-size:20px;padding:0 0 0 40px}
+      .tabBtn li a, .leftTimeInfo, .graphResultInfo .graphInfoHeading,.coinsListing li .earnedSpentHeading{font-size:22px;}
+      .timeSpent{font-size:20px;font-weight:$fregular;}
+      .graphResultInfo .graphInfoListing li .resultInfoIcon{top:0;transform:translateX(0);}
+      .graphResultInfo .graphInfoListing li .resultInfoIcon .material-icons{font-size:28px;}
+      .itemOuterRow .item{width:280px;}
+      .item .thumb img{height:150px;}
+      .item h4{font-size:18px;}
+      .referForm .formControl{max-width:650px;}
+      .referForm .btn-invite{min-width:180px;font-size:24px;height:55px;}
+      .tabContent p,.timeSelectSec.coinsSec .leftTimeInfo, .subjectTop .grd, .subjectTop p{font-size:20px;}
+      .coinBalanceSec h4{font-size:24px;}
+      .coinBalanceSec .btn-primary,.quickInfo h5,.quickInfo p{font-size:20px;}
+      .coinPeriodBox{width:150px;font-size:18px;}
+      .roundPeriodBox{width:130px;height:130px;padding:30px 0 15px;font-size:24px;}
+      .roundPeriodBox .coinsNum{font-size:30px;}
+      .sideProfileInfo.sideProfileInfoStudy{min-width:300px}
+      .sideProfileInfoStudy .leftMenu{width:120px;}
+      
+      .sideProfileInfoStudy .leftMenu ul li.active:after{right:-78px;}
+      
+      .sideProfileInfoBuddy .leftMenu ul li.active:after{right:-58px;}
+      
+      .sideProfileInfoStudy .leftMenu ul li a{font-size:18px;font-weight:$flight;}
+      .subjectsList ul li{width:200px;font-size: 18px;}
+      .subjectsList ul .subImg{width:170px;height:170px;}
+      .temp_size{width:100% !important;}
+      .recommendedSec2 .smallHeading, .eBooksPages .smallHeading2{font-size:24px;}
+      .quickInfo{width:530px;}
+      .quickInfo .img, .item{width:255px}
+      .quickInfo .img img{width:250px;height:260px;}
+      .quickInfo .infos{margin:0 0 0 270px;}
+      .subjectTop .img{width:150px;height:150px;}
+      .subjectTop .info{    margin: 0 0 0 170px;}
+      .subjectTop h4, .subDesc h5, .topicListStatus h5{font-size:32px;}
+      .subDesc p, .primaryClassBody .playBtn{font-size:20px;}
+      .btnBacktoPrePage{width:40px;height:40px;}
+      .btnBacktoPrePage .material-icons{font-size: 40px;}
+      .subjectTop .btnBacktoPrePage{left:-65px;}
+      .buddySec .srchBox .form-control{height:55px;}
+      .buddySec .srchBox .srchIcon{font-size:30px;}
+      .srchBox .form-control{padding:6px 6px 6px 60px;}
+
+      .filterListOuter .srchBox .form-control{padding:6px 6px 6px 60px;}
+      .filterListOuter .srchBox .srchIcon{ top: 12px }
+      .sideProfileInfoBuddy{min-width:300px !important}
+      .sideProfileInfoBuddy .leftMenu{width:160px;}
+
+      .homePage .sideProfileInfo{min-width:600px;}
+      .homePage .leftMenu{width:150px;     margin-top: 36px;}
+
+      .primaryClassBody .primaryContentSec .btn, .settingSec .gsetting .value{font-size:20px;}
+      #level{font-size:30px}
+      .userInfoBox .unfinishedBox h4, .userInfoBox .unfinishedBox .text, .userInfoBox .unfinishedBox .media, .userInfoBox .unfinishedBox .btnSec .btn, .userInfoBox .unfinishedBox .media h5 a, .settingSec .gsetting label, .settingSec label, .settingSec .subhead, .settingSec p, .settingSwich .value, .extraOptCheck .table td, .extraOptCheck .table td:first-child,.extraOptCheck .table th,.redeemPgSec .coinBalance, .redeemPgSec .redeemProdListing .itemListsSec .itemLists li .productName, .stataticPageOuter .queAnsSec li .ansSec{font-size:18px;}
+      
+
+.postSlider .carousel-3d-slide .firstCardsItem{ height: 351px; }
+
+
+      
+
+       .subscribe_sec .welcomeLoginTxt{ margin-bottom: 32px }
+       .subscribe_sec .regesterTxt{ margin-bottom: 45px }
+
+
+       .header{ height: 90px; 
+
+       	 .logo img{ height: 50px }
+       	 .nav li a{ font-size: 20px;font-weight:$flight; }
+       }
+
+       .header .nav li a .icons{ width: 25px; height: 25px }
+
+       .header .nav li a{ height: 50px; width: 180px; line-height: 36px}
+       .header .nav li a .icons{ transform: scale(1.3); top: 16px; left: 15px}
+       .header .userMenu{    transform: scale(1.3); position: absolute; right:80px; top:8px;}
+
+       .header .nav li a{ height: 50px; width: 180px }
+       .header .nav li a .icons{ transform: scale(1.3); top: 15px; left: 15px}
+       .header .userMenu, .switch, .purchegedIcon, .redeemProdDetailsSec .redeemProdDetails .slectedItomSec, .coin .heads, .coin .tails{    transform: scale(1.3);}
+
+       .header .nav{ margin:30px 0 -1px; }
+
+       .header .userMenu{ z-index: 9999;}
+        
+       .megaSearch .searchBox .form-control{height:60px;font-size:20px; padding: 0px 180px 0px 60px;}
+       .parentLoginForm .megaSearch .form-control{padding:0 150px 0 15px;}
+       .megaSearch .langSelect{transform:scale(1.5);}
+       .header .langSelect .seleLangcbtn{font-size:12px;}
+       .megaSearch{width:100%;max-width:1400px}
+       .settingPageSec .settingTab{width:560px;}
+       .tabCon .select select{height: 55px;}
+       .tabCon .select .select__arrow{transform: scale(1.8);top:15px;}
+       .settingSec .btn-small{font-size:18px;}
+       .redeemPgSec .redeemContainer{max-width:990px;}
+       .redeemPgSec .redeemCatBox li{width:300px;height:360px;padding:270px 10px 0;font-size:28px;}
+       .redeemPgSec .redeemCatBox li .boxCatImg{width:190px;}
+       .redeemPgSec .redeemCatBox li:hover .boxCatImg{width:240px;}
+       .redeemPgSec .redeemCatBox li.boostBox .boxCatImg{width:140px;}
+       .redeemPgSec .redeemCatBox li.boostBox:hover .boxCatImg{width:160px;}
+       .redeemPgSec .redeemProdListing .itemListsSec .itemLists li{width:25%;height: 345px;}
+       .redeemPgSec .redeemProdListing .itemListsSec .itemLists li .productImg img{width:180px;max-width:100%}
+       .planBuyBtn{font-size:20px;height:55px;}
+       .redeemPgSec .buySellHeadingSec .buySellHeading{font-size:30px;}
+       .redeemPgSec .redeemProdListing .itemListsSec .itemLists.giftList li{height:290px;}
+       .redeemPgSec .redeemProdListing .itemListsSec .itemLists.giftList li .productImg img{max-width:110px;}
+
+       .redeemPgSec .buySellHeadingSec p{font-size:18px;}
+       .redeemProdDetailsSec .redeemProdDetails .redeemProdDetailsLeft{width:400px;height:500px;}
+       .redeemProdDetailsSec .redeemProdDetails .redeemProdDetailsLeft .imgMascot{width:320px;}
+       .redeemProdDetailsSec .redeemProdDetails .redeemProdDetailsRight{margin-left: 430px;}
+       .redeemProdDetailsSec .redeemProdDetails .redeemProdDetailsRight .boostTabs li{width:33%;height:110px;font-size:20px;}
+       .redeemProdDetailsSec .redeemProdDetails .redeemProdDetailsRight .boostTabContent .boostTabContentList li{width:33%;height:200px;}
+       .redeemProdDetailsSec .redeemProdDetails .redeemProdDetailsRight .boostTabs li .boostIcons{transform:scale(1.3);}
+      
+      
+
+       .redeemPgSec .buySellHeadingSec p{font-size:18px;} 
+       .content-wrapper{ margin: 90px 0 0 }
+       .header .nav ul { padding-left: 500px}
+
+       .redeemProdDetailsSec .redeemProdDetails .redeemProdDetailsRight .boostTabContent .boostTabContentList li .productImg img {max-width: 110px;max-height: 100px;}
+       .redeemProdDetailsSec .redeemProdDetails .slectedItomSec .slectedItomList li .closeSelectedBtn{transform:scale(1.3);top:3px;}
+       .stataticPageOuter .queAnsSec li .qusArrow{transform: scale(1.4);}
+       .stataticPageOuter .queAnsSec li.active .qusArrow{transform:rotate(180deg) scale(1.4)}
+
+
+
+       .buddySec .buddycustom-box{ max-width:570px }
+       .buddySec .buddycustom-box{ font-size: 17px }
+       .buddySec .buddy-img-box .picPlaceHolder,
+       .buddySec .buddy-img-box img{ width: 120px; height: 120px; font-size: 70px; line-height: 120px }
+       .buddySec .buddycustom-box .info{    margin: 0 160px 0 140px;}
+       .buddySec .btn-remind,
+       .buddySec .acsnBtn .btn{ font-size: 18px;line-height: 28px; }
+       .buddySec .accpt-buddy-btn, .buddySec .decline-buddy-btn{ min-width: 110px }
+       .picPlaceHolder{ font-weight: $flight!important }
+       .buddycustom-box .dropdown-menu{ font-size: 18px }
+       .deletePostPopInner .btns .btn{ font-size: 18px }
+       .blockReportPostPop .deletePostPopInner h4{ font-size: 30px }
+       .blockReportPostPop .deletePostPopInner{ width: 900px }
+       .blockReportPostPop .deletePostPopInner .text{ max-width: 600px }
+       .buddySec .buddycustom-box .acsnBtn .btn{ padding: 0 10px }
+       .buddyFilterRight{ transform: scale(1.2); z-index: 999 }
+       .srchBox{ max-width: 1000px }
+       .blockBullets, .editThemeOverlay .submitBtn{ font-size: 20px }
+
+       .sideProfileInfoProfile{    min-width: 470px;
+            .userInfoBox{ width: 350px }
+       }
+       .addBuddyAcsnBoxProfile .btn-remind .material-icons{ font-size: 25px; vertical-align: middle; }
+       .profileInfiSide .text ul li{ padding: 14px 15px 14px 50px }
+       .subDesc h5,
+       .topicListStatus h5{ font-size: 27px }
+       
+       .topicListStatusDetails .topiCheckList .trow div label,
+       .topicListStatus h4,.actionBtn, .dropShow .sortList li{ font-size: 20px }
+       .topicListStatus ul.topicListStatusUl > li .img{width: 110px;height: 90px;
+          img{ width: 100%; height: 100% }
+       }
+       .topicListStatusDetails .poitstext{ padding: 0 0 0 130px }
+       .primaryClassBody .primarySubjectsList.subjectsList ul li{width:200px;}
+       .primaryClassBody .primarySubjectsList.subjectsList ul .subImg{width:200px;height:200px;}
+       .primaryClassBody .primarySubjectsList.subjectsList ul .subImg img{width:130px;height:130px;max-width:130px;margin:35px 0 0;}
+       .eBooksPages .srchBox .form-control{height:60px;font-size:20px; padding:10px 10px 10px 60px;}
+       .eBooksPages .srchBox .srchIcon{font-size:33px;top:13px;left:18px;}
+       .actionBtn .material-icons{font-size:35px;vertical-align:middle;}
+       .dropShow.bookmarkSort{top:35px !important;}
+
+       //Detail page
+       .recomend_complete,
+       .studyPopUpPageNew .studyPopUpInner .pcontainer,
+       .resourcesPageSec .pcontainer,
+       .fullScreen,
+       .contentTitle{ max-width: 1400px }
+       .videoPlayerBox{ height: 700px }
+       .studyPopUpPageNew .studyPopUpInner .pcontainer{ width: 100% }
+       .contentTitle{ padding: 12px 0 0 20px; font-size: 26px;
+          .mainTitleRsource{ font-size: 18px }
+       }
+       .sideProfileInfoProfile .userInfoBox .infoTop .img, 
+       .sideProfileInfoProfile .userInfoBox .infoTop .img img,
+       .sideProfileInfoProfile .userInfoBox .infoTop .img .picPlaceHolder{ width: 265px; height: 265px; font-size: 120px; line-height: 265px;}
+       .promocodePop h3{ font-size: 22px; text-align: center; }
+       .regFormElements .contrySelect .formControl { padding-left: 138px;}
+       .regFormElements .optInput .btn{ font-size: 20px }
+       .verifiedIco{ top: 16px }
+       .regFormElements .promocodePop h6{ font-size: 20px }
+       .regFormElements .btns .btn{ font-size:20px }
+
+       .regFormElements .formControl input{}
+       .resourcesPageSec .pcontainer{ width: 100% }
+
+       
+
+       .marketingPage .mrkConMid{max-width:1400px;}
+       .marketingPage .mrkHeader nav li a, .marketingPage .langSelect .seleLangcbtn{font-size:18px;}
+       .marketingPage .langSelect .select__arrow{border-left: 6px solid transparent;border-right: 6px solid transparent;top:12px;right:2px;}
+       .customPaging .swiper-pagination-bullet{width:15px;height:15px;}
+       .langSelect .dropdownSel ul li{font-size:16px;}
+
+      .contentSec{ min-height: calc(100vh - 90px); max-height: calc(100vh - 90px); height: calc(100vh - 90px); }
+      .primaryClassBody .homeGamgeSec .primaryContentSecInner { min-height: calc(100vh - 240px)}
+      .notePopUpBox{ top: 90px; height: calc(100% - 90px)}
+      .notePopUpBox .notesBox{ width: 100%; max-width: 1400px }
+
+      .notesBox .noteTxt,
+      .notesBox .dateTxt,
+      .notePopUpBox .notesBox .dateTxt{ font-size: 17px }
+      .notePopUpBox .notesBox .noteTxt{ font-size: 20px }
+      .notesBox .subjectTxt span{ font-size: 18px; }
+
+      .notesListingOuter .notesBox{ width: calc(100% - 30px); padding: 30px }
+      .btn.add_notesBtn,
+      .notesHoverBox .viewBtn{ height: auto; font-size: 20px }
+      .btn.add_notesBtn{ padding: 5px 15px }
+      .btn-primary,
+      .subChip{ font-size: 17px }
+      .btn.add_notesBtn .material-icons{ margin-top: 5px }
+      .notesPop{}
+      .likeList h3{ font-size: 26px }
+      .header .langSelect .dropdownSel ul{ width: 145px;
+        li{ font-size: 11px }
+      }
+      .text-ellipsis{ max-height: 212px }
+      .subChipContainer .subChip{ line-height: 1.2 }
+
+
+      .ediNotetbox{ width: 500px;
+            .saveNoteBtn{ font-size: 18px; height: 50px }
+             
+            .formControl{ font-size: 18px }
+            .noteHeading{ font-size: 18px;line-height: 30px; height: auto;}
+      }
+
+      .socialIcons{ margin-bottom:10px  }
+      .sharePopUp .shareBtn{ height: auto; }
+      .sharePopUp .shareBtn .material-icons {font-size: 22px;  margin: 4px 10px 0 0;}
+      .sharePopUp .topHeading .material-icons {font-size: 24px;line-height: 30px; padding: 0 10px 0 0;}
+
+      .shrePopupBox .shrePopupBoxPop{ width: 100%; max-width: 1200px }
+
+
+
+      .primaryClassBody .header .nav li a .icons{top:20px;}
+      .primaryClassBody .primarySubjectPage .remainingTopicsCart{width:155px}
+      .primaryClassBody .primarySubjectPage .remainingTopicsCart label{min-width:155px;font-size:16px;}
+      .primarySubjectPage .subjectTop .info .select .select__arrow{transform:scale(1.3);top:0;}
+      .primarySubjectPage .subTopHed .btnBacktoPrePage{left:-50px;}
+      .primaryClassBody .notesHoverBox .editBox{transform: scale(1.2);margin: 15px 17px 0 0;}
+      .primaryClassBody .notePopUpBox .editBox{transform: scale(1.2);}
+      .primaryClassBody .primarySubjectPage .topicListStatusDetails .poitstext{padding-left:140px;}
+      .primaryClassBody .primarySubjectPage .topicListStatus .poitstext .col{font-size:16px;}
+      .primaryClassBody .primarySubjectPage .subjectTop .btn-border-blue{transform: scale(1.2);}
+      .primaryClassBody .primarySubjectPage .subTopHed{font-size:24px}
+
+
+      .subsPrePlanSecPage{max-width:1400px;}
+      .subsPrePlanSec .subsPrePlanBox{width:450px;}
+      .subsPrePlanSecPage .subsrbPlan{width:370px;}
+      .subsPrePlanSecPage .otherPlans{margin: -15px 0 0 500px}
+      .subsPrePlanSec .subsPrePlanBox .planHeadSec{height:150px;}
+      .subsPrePlanSec .subsPrePlanBox .planHeadSec .prePlanTxt, .subsPrePlanSec .subsPrePlanBody .subPlnfeatureSec .planFeatrueList li{font-size:18px;}
+      .subsPrePlanSec .subsPrePlanBox .planHeadSec .prePlanName, .subsPrePlanSec .subsPrePlanBody .planExpInfo .labelTxt, .subsPrePlanSec .subsPrePlanBody .subPlnfeatureSec .featureHeading{font-size:20px;}
+      .subsPrePlanSec .subsPrePlanBody .planExpInfo .dateAndPlanTxt{font-size:30px;}
+      .subsPrePlanSec .subsPrePlanBox .planHeadSec .leftinfo{margin-right:200px;}
+      .subsPrePlanSec .subsPrePlanBox .planHeadSec .expiredate{width:180px;height:35px;font-size:16px;}
+
+
+
+      .marketingPage .mrktSlider .marktSliderInner .leftInfo{max-width:320px;font-size:24px;}
+      .marketingPage .mrktSlider .marktSliderInner .leftInfo .heading, .marketingPage .marktFoldOuter .marktFoldSec .marktFoldBox .hedingTabfold{font-size:42px;}
+      .marketingPage .marktFoldOuter .marktFoldSec .marktFoldBox .foldFeatureTabContent .tabInfo{width:450px;font-size:24px;}
+      .marketingPage .marktFoldOuter .marktFoldSec .marktFoldBox .foldFeatureTabContent.content_3 .tabInfo{width:450px;}
+      .marketingPage .marktFoldOuter .foldActionBtnSec{margin-top:-135px;}
+      .marketingPage .marktFoldOuter .marktFoldSec .marktFoldBox .foldSlider.foldTeacherSlider .foldTestmBox{font-size:18px;width:350px;}
+      .marketingPage .marktFoldOuter .marktFoldSec .marktFoldBox .foldSlider.foldTeacherSlider{width:750px}
+      .marketingPage .marktFoldOuter .marktFoldSec .marktFoldBox .foldSlider.foldTeacherSlider .boxHeding{font-size: 24px;}
+      .marketingPage .testimonial_quote{width:520px;}
+      .marketingPage .testimonial_quote .testimonial_quote_txt{font-size:40px}
+      .marketingPage .marktFoldOuter .foldBoxContactInner .colsHeading{font-size:24px;}
+      .marketingPage .marktFoldOuter .marktFoldSec .marktFoldBox.foldBox_ContactUs, .marketingPage .marktFoldOuter .marktFoldSec .marktFoldBox .foldSubscTxt{font-size:18px;}
+      .marketingPage .marktFoldOuter .marktFoldSec .marktFoldBox.foldBox_ContactUs .masKotImg{width:270px;}
+      .marketingPage .marktFoldOuter .appBtn{transform:scale(1.3);margin:0 40px 0 0;}
+     
+
+      .selectUserTypePopup .modal-dialog .btnUserSelect .checkIcon{left:15px;top:15px;transform:scale(1.2);}
+      .promocodePop .proCodeInput input~.btn{height:52px;font-size:16px;}
+      .promocodePop .alreadyAcTxt{font-size:18px;}
+
+
+      .notificationSec{width:1400px}
+      .notificationSec .dropDownBox h3{font-size:34px;}
+      .notificationSec .dropDownBox ul li .info, .notificationSec .dropDownBox ul li .info .date{font-size:18px;}
+      .notificationSec .dropDownBox ul li .btnSubscUpgrade{font-size:20px !important;}
+      .selectUserTypePopup .regFormElements{ width: auto; max-width: 100% }
+
+      .scubscrpSteps{ width: 900px; top: 12px;    margin: 10px auto 0px -450px; }
+
+      .commentList .media .comnt, .likeList .media .comnt{ line-height: normal; }
+
+      .cmtBox .allCommentElemOuterSec .img, 
+      .cmtBox .allCommentElemOuterSec .img img{ width: 35px; height:35px }
+      .cmtBox .allCommentElemOuterSec .img .picPlaceHolder{ width: 35px; height:35px; font-size: 16px; line-height: 35px }
+
+      .commentList .allCommentElemOuterSec .statusBtns .submitBtn{ min-width: 23px }
+      .whiteTabBorderd ul li a { padding: 0 15px; height: auto;line-height: 40px;}
+     
+      .primaryClassBody .primaryContentSecInner{ padding: 15px 20px;    min-height: calc(100vh - 160px); }
+
+      .subtopicOuter .c100{ transform: scale(1.5); }
+      .primaryClassBody .primarySubjectPage .topicListStatus ul li .c100, .primaryClassBody .primarySubjectPage .topicListStatus ul li.completed h4 .material-icons {    right: 29px;  top: 31px;}
+      .studyPopUpPageNew { height: calc(100vh - 92px)}
+
+      .timeSpentOuter{ padding: 20px 0 40px }
+      .scoreboardPg .timeDropIcon, .activityGrphSec .timeDropIcon{height: 38px;width: 35px;}
+      .scoreboardPg .timeSelect .timeDropIcon .material-icons, .activityGrphSec .timeDropIcon .material-icons {font-size:20px;margin: 10px 0 0 8px;}
+
+      .regFormElements .select select{background-size:55px;}
+      .settingSec .form-group .btn.verifyBtn{top: 45px;font-size: 16px;padding: 7px 10px;height: 35px;}
+      .settingSec .form-group .form-control{height:55px;}
+      .settingSec .form-group input+.showPass{width: 50px;line-height: 65px;height: 55px;}
+      .regFormElements .terms{font-size:16px!important;}
+      .introBuddyPopOverlay .select_bg{height: 55px;background-size:55px;}
+      .introBuddyPopOverlay .inputGroup label{font-size:18px;}
+      .subsrbPlan .planOldPrice{font-size:32px;}
+      .subsrbPlan .planSelectBtn .checkedIcon{transform: scale(1.3);}
+      .inviteFriend .referForm .btn-primary.btn-invite{font-size:18px;height:55px;}
+      .socialIcons li{margin: 0 20px 0 0;display: inline-block;transform: scale(1.4);}
+      .introBuddyPopOverlay .btnRequestDemo{font-size:18px;height:55px;}
+      .introBuddyPopOverlay .selectCtry .select__arrow{right: 13px;top: 15px;}
+      .introBuddyPopOverlay .introByddyTxt{font-size:18px;}
+
+      /*.item:nth-child(4n+3),
+      .item:nth-child(4n+4) {
+        .quickInfo{right: calc(100% + 15px); left: auto;}
+      }*/
+
+
+      .postDetails .buddyTagOpen .statusBtns .addFriendSearch .form-control{ font-size: 15px }
+      .statusBtns .submitBtn{ font-size: 18px;min-width: 120px; height:45px; }
+
+      .likCommentBar .likesCol.likeIcons{ transform: scale(1); }
+      .header .userMenu .dropDownBox ul{max-height: calc(100vh - 360px)}
+
+     .filterListOpt .control__indicator{height:22px;width:22px;}
+     .filterListOpt .control__indicator:after{width:6px;height:14px;left:6px;}
+      .saveNoteBtn{height:50px;font-size:20px;}
+      .filterLinkSec .filterNub,.btn-link.btnFilter,.filterListOpt .control{font-size:18px;}
+      .editBtn .editBtnText{font-size:16px;}
+      .actionBtn .dropShow.filterOpt {left: -125px;}
+      .notesHoverBox .editBox{    margin: 10px 16px 0 0;}
+      .editNotesave .btn{font-size: 20px;height: 50px;}
+      .optCloseSec .btn-link.btnFilter.clearAll{font-size: 18px;}
+      .optCloseSec .subChip{font-size:16px; padding: 5px 20px 5px 10px;min-width: 150px;}
+      .optCloseSec .subChip .btn.chipClose .material-icons{font-size:20px;}
+      .mainPlansListingOuterMain{ max-width: 1200px }
+
+      .profilePostDtlCloseBtn .pclosebtn .material-icons{font-size:24px;}
+      .whiteTab:after{height:2px;}
+      .notificationSec .dropDownBox h3 .material-icons{font-size:34px;}
+      .statusBtns .addFriendSearch .form-control{ font-size: 15px;height:45px; }
+      .unfnishedicon{transform: scale(1.4);margin:0 5px 0 0;}
+      .emoji-mart-search input[data-v-85e0e86a]{height:30px;font-size:16px;}
+      .userInfoBox .unfinishedBox h4{padding: 10px 20px 10px 20px;}
+      .buddySec .buddyName{ font-size: 17px }
+    .buddySec {
+      .acsnBtn.useracsnBtn  .btn-friendReq{
+        .btn{ min-width: 150px!important}
+      }
+    }
+    .buddySec .buddycustom-box .acsnBtn{ top: 10px }
+
+    .primaryClassBody .primarySubjectPage .subjectTop h4 {font-size: 22px}
+    .homePage .postScrollOuter {padding: 0 0 60px}
+    .homePage .leftMenu ul li a { padding: 25px 0;}
+    .leftMenu ul li .icons{margin: 0px auto 10px;}
+    .primaryClassBody .header .userMenu li .searchico{background-position:-38px 3px;}
+    .primaryClassBody .header .userMenu li:hover .searchico{background-position: -38px -22px;}
+    .primaryClassBody .header .userMenu li .notiIco{background-position: -83px 3px;}
+    .primaryClassBody .header .userMenu li:hover .notiIco{background-position: -83px -21px;}
+    .primaryClassBody .header .userMenu .mopen .notiIco {background-position: -83px -21px !important;}
+    .primaryClassBody .header .nav li a .icons{transform:scale(1.5);}
+    .teacherGrade li{ width: 150px!important;}
+    .teacherGrade li label{ width: 120px; height: 120px; line-height: 50px; font-size: 32px }
+
+
+    .parentLoginForm .formInstrcTxt{font-size:28px;}
+    .parentStuCardSec{
+       .icon_info{font-size:28px;}
+       .doneRounIcon{transform: scale(1.2);margin:0 8px 0 -2px;}
+       .resultStatusPopTxt{font-size:18px;}
+       .parentStuCard{width:450px;
+        .btmActionBtnSec{
+           .btmActionBtn{font-size:20px;}
+         }
+          .parentStuInfoTxt{font-size:18px;}
+       }
+       .parentStuHeadSec{
+        .parentStuName{font-size:20px;}
+        .closeBtn{transform:scale(1.3);}
+       } 
+    }
+    .parentLoginForm{
+      .megaSearch{max-width:95%;}
+    }
+    .congratesBox{width:450px;
+      .closeBtn{transform: scale(1.3);}
+      .doneRounIcon{transform: scale(1.3);margin:6px 5px 0 -30px;}
+    }
+    .congrateBoxContnt{font-size:28px;}
+
+    .feedAddLocDrop{font-size:18px;width:350px;
+      .locSrchBox {
+        .formControl{padding: 8px 10px 8px 5px;
+         & ~ .locSrchClsBtn{ transform: scale(1.7);top:14px;}
+        }
+      }
+    }
+    /*.feedAddLocDrop .locSrchBox .formControl~.locSrchClsBtn{ transform: scale(1.5);top:8px;}*/
+    .postPopUpSec .statusBtns .postBtnsOptions button{ min-width: 45px}
+    .tagbudList{
+      .control__indicator{height:25px;width:25px;}
+      .leftChecks{width:35px;}
+      .tabBudyImg img{width:45px !important;height:45px !important;}
+      .tabBudyRgtInfo{font-size:18px;margin:0 0 0 40px;}
+    }
+    .postItem .datime{
+       .dcol{font-size:16px;}
+       .material-icons{padding:0;}
+    } 
+    .primaryClassBody .primaryViewPostsFull .pclose{top:40px;}
+    .leftMenu ul li.active .icons.ideaBoardIcon{background-position:5px -63px}
+
+    .quizHeaderSec{
+        .quizTxt{font-size:18px;}
+        .quizTopicName{font-size:24px;}
+      }
+   .quesType{font-size:22px;}
+   .quesTxtSec {
+     .quesTxt{font-size:22px;}
+    }
+    .quesOptSec{max-width:500px;}
+    .quesOptList{
+      .quesOptBox{width:500px;
+       .quesBoxBtn{font-size:20px;
+         &:after{font-size:30px;}
+       }
+      }
+    }
+    .quizTimer{font-size:18px;
+      .timerIcon{font-size:32px;}
+    }
+    .btn-quiz{font-size:18px;}
+    .quizActionInner{font-size:20px;}
+    .btn-quiz{
+      &.useHintBtn{min-width:initial;
+        .refreshIcon{font-size:30px;left:-12px;}
+        .tryTxt{font-size:16px;}
+      }
+    }
+    .popUpBox{font-size:18px;width:350px;
+      .popUpHeadeTxt{font-size:22px;}
+    }
+    .aboutAnsSec{font-size:18px;
+      .aboutAnsHeading{font-size:18px;}
+    }
+    .quizCloseBtn{padding:5px 8px;
+      .material-icons{font-size:30px;}
+    }
+
+    .earnedPoitnsBar{
+        p{font-size:18px !important;}
+       .bar{
+        .fill{height:6px !important;}
+       }
+       label{font-size:18px !important;margin-bottom:0;}
+    }
+    .topicListStatus{
+      .poitstext{font-size:16px;}
+    }
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
